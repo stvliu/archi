@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simplified Chinese Language Pack
+Bundle-SymbolicName: com.archimatetool.editor.zh
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Steven Liu
+Fragment-Host: com.archimatetool.editor
+Bundle-ClassPath: com.archimatetool.editor.zh.jar
+Automatic-Module-Name: com.archimatetool.editor.zh

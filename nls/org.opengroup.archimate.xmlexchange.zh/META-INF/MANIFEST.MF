@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simplified Chinese Language Pack
+Bundle-SymbolicName: org.opengroup.archimate.xmlexchange.zh
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Steven Liu
+Fragment-Host: org.opengroup.archimate.xmlexchange
+Bundle-ClassPath: org.opengroup.archimate.xmlexchange.zh.jar
+Automatic-Module-Name: org.opengroup.archimate.xmlexchange.zh

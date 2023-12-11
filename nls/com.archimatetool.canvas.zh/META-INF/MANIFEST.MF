@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simplified Chinese Language Pack
+Bundle-SymbolicName: com.archimatetool.canvas.zh
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Steven Liu
+Fragment-Host: com.archimatetool.canvas
+Bundle-ClassPath: com.archimatetool.canvas.zh.jar
+Automatic-Module-Name: com.archimatetool.canvas.zh

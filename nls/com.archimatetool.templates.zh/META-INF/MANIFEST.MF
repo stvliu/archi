@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simplified Chinese Language Pack
+Bundle-SymbolicName: com.archimatetool.templates.zh
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Steven Liu
+Fragment-Host: com.archimatetool.templates
+Bundle-ClassPath: com.archimatetool.templates.zh.jar
+Automatic-Module-Name: com.archimatetool.templates.zh

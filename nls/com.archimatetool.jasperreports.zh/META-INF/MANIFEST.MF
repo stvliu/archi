@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simplified Chinese Language Pack
+Bundle-SymbolicName: com.archimatetool.jasperreports.zh
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Steven Liu
+Fragment-Host: com.archimatetool.jasperreports
+Bundle-ClassPath: com.archimatetool.jasperreports.zh.jar
+Automatic-Module-Name: com.archimatetool.jasperreports.zh
