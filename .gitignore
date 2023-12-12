@@ -1,21 +1,56 @@
-bin/
-.settings/
+.gitignore
+.jmix
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
-# Ignore Maven generated folders
-# Although it would be better to copy the source folders first and run Maven on the copy...
-# Which is what I do via an Ant script
 target/
-/workspace/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Maven generates these *.jar files in the project's root...
-com.archimatetool.canvas.jar
-com.archimatetool.editor.jar
-com.archimatetool.export.svg.jar
-com.archimatetool.help.jar
-com.archimatetool.jasperreports.jar
-com.archimatetool.jdom.jar
-com.archimatetool.model.jar
-com.archimatetool.reports.jar
-com.archimatetool.templates.jar
-com.archimatetool.widgets.jar
-com.archimatetool.zest.jar
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+.fastRequest
+.codingas/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Javascript/Typescript
+**/.angular/
+**/node_modules/
+**/frontend/generated/**
+**/dev-bundle/**
+pnpmfile.js
+vite.generated.ts
+webpack.generated.js
+
+### Mac OS ###
+.DS_Store
+.flattened-pom.xml
+/spy.log
+/.instance_id
