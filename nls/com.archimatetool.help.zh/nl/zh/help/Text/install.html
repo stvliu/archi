@@ -4,52 +4,51 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Installing and Launching Archi</title>
+<title>安装和启动Archi</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-	<h1 class="pagebreak">Installing and Launching Archi</h1>
+	<h1 class="pagebreak">安装和启动Archi</h1>
 	
-	<p>Download the required version from <a href="https://www.archimatetool.com">https://www.archimatetool.com</a></p>
-
-	<p>The Windows version has an installer. Run the installer to install Archi to your system. Windows 10 and 11 64-bit is supported. The installer simply copies the program files to the target directory and associates *.archimate files with Archi. An uninstaller is also provided.</p>
-    
-	<p>You can also install Archi manually with a zip installation. Unzip this file and run either the "Archi" or program file. Also included are some Windows batch files - "RegisterFileAssociation.bat" and "UnregisterFileAssociation.bat". The first of these files will register the *.archimate file extension with Archi in the Windows Registry. The second batch file will unregister the file association.</p>
+	<p>从 <a href="https://www.archimatetool.com">https://www.archimatetool.com</a>下载所需的版本</p> 
 	
-	<p>The Mac and Linux versions are packaged in dmg and tgz files respectively. Simply copy the files in the dmg or tgz download and double-click the "Archi" application file to launch the program.</p>
-    
-    <br/>
-    
-	<h2>Launching Archi</h2>
+	<p>Windows 版本有安装程序。运行安装程序将Archi安装到您的系统。支持Windows 10 64位。安装程序只需将程序文件复制到目标目录并将 *.archimate 文件与Archi相关联。还提供了一个卸载程序。</p>
+	    
+	<p>您也可以通过zip安装手动安装Archi。解压缩此文件并运行“Archi”或程序文件。还包括一些Windows批处理文件 - “RegisterFileAssociation.bat”和“UnregisterFileAssociation.bat”。这些文件中的第一个将在Windows注册表中使用Archi注册 *.archimate 文件扩展名。第二个批处理文件将注销文件关联。</p>
 	
-	<p>The new, blank Archi workspace looks like the following:</p>
+	<p>Mac和Linux版本分别打包在dmg和tgz文件中。只需复制dmg或tgz下载中的文件，然后双击“Archi”应用程序文件即可启动程序。</p>
+	    
+	    <br/>
+	    
+	<h2>启动Archi</h2>
+	
+	<p>新的空白Archi工作区如下所示：</p>
 	<img src="../Images/blank-workspace.png"/>
-	<p class="caption">The Default Archi Workspace</p>
-
-	<p>The workspace is divided into the following sub-windows:</p>
+	<p class="caption">默认归档工作区</p>
+	
+	<p>工作区分为以下子窗口：</p>
 	
 	<ul>
-  		<li>The <strong>Models</strong> Tree window. By default this is positioned at the top left and labelled "Models". This is where one or more ArchiMate models can be viewed as a tree structure.</li>
-  		<li>The <strong>Properties</strong> window. This displays the properties for a selected object. The properties for the selected object can be edited here.</li>
-  		<li>The <strong>Outline </strong>window. This window displays the contents of an ArchiMate diagram (View) in miniature as a navigation tool for the selected diagram (View).</li>
-  		<li>The <strong>Navigator</strong> window. This window displays the selected model concept and all of its relationships with other model concepts. It is used to navigate between connected concepts via their relationships and is used in conjunction with the Models Tree window.</li>
-		<li>The <strong>Palette</strong> window. When opened will display a single window for the drawing Palette used in Views.</li>
-		<li>The <strong>Visualiser</strong> window. This window displays the selected model concept and all of its relationships with other model concepts in a graphical way. It is the graphical equivalent of the Navigator.</li>
-		<li>The <strong>Hints</strong> window. This displays short textual hints for the selected object. For example, selecting an ArchiMate "Business Actor" diagram element displays a short summary of that object's meaning and purpose. Selecting an item or hovering over an item, in the diagram's palette also displays a hint in the window.</li>
-		<li>The <strong>Validator</strong> window. This provides hints and tips to improve your model.</li>
+	  <li><strong>模型</strong>树形窗口。默认情况下，它位于左上角并标记为“模型”。在这里，一个或多个ArchiMate模型可以被视为树形结构。</li>
+	  <li><strong>属性</strong>窗口。这将显示选定对象的属性。可以在此处编辑所选对象的属性。</li>
+	  <li><strong>缩略图</strong>窗口。此窗口显示ArchiMate图表（视图）的缩影内容，作为所选图表（视图）的导航工具。</li>
+	  <li><strong>导航器</strong>窗口。此窗口显示选定的模型概念及其与其他模型概念的所有关系。它用于通过关系在连接的概念之间导航，并与“模型树”窗口结合使用。</li>
+	<li><strong>调色板</strong>窗口。打开时将显示一个用于视图中使用的绘图调色板的窗口。</li>
+	<li><strong>可视化分析器</strong> 窗口。此窗口以图形方式显示所选模型概念及其与其他模型概念的所有关系。它是导航器的图形等价物。</li>
+	<li><strong>提示</strong>窗口。这将显示所选对象的简短文本提示。例如，选择ArchiMate“业务参与者”图表元素会显示该对象的含义和目的的简短摘要。在图表的调色板中选择一个项目或将鼠标悬停在一个项目上也会在窗口中显示一个提示。</li>
+	<li><strong>验证器</strong>窗口。这提供了改进模型的提示和技巧。</li>
 	</ul>
 	
-	<p>These sub-windows can be re-arranged by dragging them into new positions, or by dragging them out of the main application window to become detached from the main window.</p>
-	<p>The various windows may be shown or hidden by selecting the appropriate menu items from the "Window" menu on the main menu bar or from the buttons on the toolbar:</p>
+	<p>这些子窗口可以通过将它们拖到新位置来重新排列，或者将它们拖出主应用程序窗口以与主窗口分离。</p>
+	<p>通过从主菜单栏上的“窗口”菜单或工具栏上的按钮选择适当的菜单项，可以显示或隐藏各种窗口：</p>
 	
 	<img src="../Images/windows-toolbar.png"/>
-	<p class="caption">The Windows Toolbar</p>
-
-	<p>To reset the Archi window workspace to its default layout, select "<strong>Reset Window Layout</strong>" from the "Window" menu from the main menu.</p>
-	<p>You can hide or show the main toolbar by selecting "Hide/Show Toolbar" from the "Window" menu from the main menu.</p>
-
+	<p class="caption">Windows 工具栏</p>
+	
+	<p>要将Archi窗口工作区重置为其默认布局，请从主菜单的“窗口”菜单中选择“<strong>重置窗口布局</strong>”。</p>
+	<p>您可以通过从主菜单的“窗口”菜单中选择“隐藏/显示工具栏”来隐藏或显示主工具栏。</p>
 	<p>&nbsp;</p>
 
 </body>

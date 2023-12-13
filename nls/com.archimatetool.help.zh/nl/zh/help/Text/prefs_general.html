@@ -4,86 +4,81 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>General Preferences</title>
+<title>常规首选项</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-	<h1 class="pagebreak">General Preferences</h1>
+	<h1 class="pagebreak">常规首选项</h1>
 	
 	<br/>
 	
-	<h3>Files</h3>
-	<p><strong>Automatically open Views in a Model when opening from file</strong><br/>
-	When opening a Model from a file, choose whether to automatically open all the Views in the model.</p>
-
-	<p><strong>Automatically create a backup file (*.bak) when saving</strong><br/>
-	If this is selected, whenever an .archimate file is saved, a backup copy with file extension .bak will be created first.</p>
-
-	<p><strong>Size of recently opened file list</strong><br/>
-	Set the cached sized of the recently opened file list in the "File-&gt;Open Recent" menu. Can be set from 3 - 15.</p>
+	<h3>文件</h3>
+	<p><strong>从文件打开时自动打开模型中的视图</strong><br/>
+	从文件中打开模型时，选择是否自动打开模型中的所有视图。</p>
+	
+	<p><strong>保存时自动创建备份文件（*.bak）</strong><br/>
+	如果勾选此项，则每当保存 .archimate 文件时，将首先创建文件扩展名为 .bak 的备份副本。</p>
+	
+	<p><strong>最近打开的文件列表的大小</strong><br/>
+	在“文件->打开最近”菜单中设置最近打开的文件列表的缓存大小。可设置为 3 - 15。</p>
 	
 	<br/>
-
-	<h3>Model Tree</h3>
-	<p><strong>Display unused concepts in italics</strong><br/>
-	When this is selected, any elements or relations that are not used in Views are displayed in an Italic font.</p>
-
-	<p><strong>Update search result as you type</strong><br/>
-	When this is selected, search results in the Model Tree are updated as you type (default). If not selected the search result will update when the Return key is pressed.</p>
-
-	<p><strong>Always warn when deleting objects</strong><br/>
-	When this is selected a warning is always displayed when objects are deleted in the Model Tree. If unselected, a warning is only displayed when deleting objects if the objects are used in Views.</p>
-
-	<p><strong>Show Specializations in "New" menu</strong><br/>
-	When this is selected any specialized elements in the current model will be shown in the "New" right-click menu of the Model Tree.</p>
 	
-	<br/>
-
-	<h3>Label Expressions</h3>
-	<p><strong>Use for View names in Analysis table</strong><br/>
-	When this is selected, the "Used in Views" in the "Analysis "section uses a label determined by an ancestor folder's label expression (if set).</p>
-
-	<br/>
-
-	<h3>Other</h3>
-	<p><strong>Add a note to a Relation's documentation field when changing type</strong><br/>
-	When this is selected, if a connected relation type is changed to Association as a result of changing an Element's type, a note will be added to the Relation's documentation field.</p>
-	<br/>
-
-	<p><strong>Export images at double scale</strong><br/>
-	When this is selected, images are exported and copied to the clipboard at twice their normal size. This is set on by default for Windows operating systems where display scaling is greater than 100%, and on Mac Retina devices. This is so that the exported image quality is not compromised since it is not possible to set a higher DPI in the image. This setting is usually not needed on Linux displays.</p>
-
-	<p>If the resulting image needs to be at its logical size you could edit it in an image editor and set the DPI to double its value. For example, on Mac change the DPI from to 72 to 144.</p>
-
-	<br/>
-
-	<h3>Internal Web Browser</h3>
-	<p><strong>Use MS Edge (Windows only)</strong><br/>
-	When this is selected, the internal browser used by Archi for the Help system, Hints tab and Report preview is Microsoft's Edge. On Windows 10, the WebView2 Runtime
-	distribution has to be installed first. This is the "Evergreen Standalone Installer" for x64. More information and download is available <a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section">here</a>. Archi will need to be restarted if this setting is changed.</p>
-
-	<p><strong>Enable JavaScript in Hints</strong><br/>
-	When this is selected, JavaScript is enabled in the internal web browser used for the Hints window.</p>
-
-	<p><strong>Allow External Hosts in Hints</strong><br/>
-	When this is selected, non-local web locations are allowed in the internal web browser used for the Hints window.</p>
-
-	<br/>
-
-	<h3>Animation</h3>
-	<p><strong>Animate Views</strong><br/>
-	Sets whether animation is used in diagram Views for some Undo/Redo commands and when changing the View's Connection Router.</p>
-
-	<p><strong>Speed (mS)</strong><br/>
-    Sets the animation speed for animating in Views in milliseconds.</p>
-
-	<p><strong>Animate Visualiser</strong><br/>
-	Sets whether animation is used in the Visualiser when laid out for the first time and when the "Layout" button is clicked.</p>
-		
-	<p><strong>Speed (mS)</strong><br/>
-	Sets the animation speed for animating in the Visualiser in milliseconds.</p>
+	<h3>模型树</h3> 
+	<p><strong>将未使用的概念显示为斜体</strong><br/>
+	选择此项时,模型树中任何未在视图中使用的元素或关系都以斜体字体显示。</p>
+	
+	<p><strong>键入时更新搜索结果</strong><br/>
+	选择此项时,键入时模型树中的搜索结果会更新(默认)。如果未选中,搜索结果将在按下Return键时更新。</p>
+	
+	<p><strong>删除对象时始终警告</strong><br/>
+	选择此项时,在模型树中删除对象时将始终显示警告。如果未选中,则只在对象在视图中使用的情况下删除对象时才会显示警告。</p>
+	
+	<p><strong>在“新建”菜单中显示专业化</strong><br/>
+	选择此项时,当前模型中的任何专用元素都将显示在模型树的“新建”右键菜单中。</p>
+	
+	<br/> 
+	
+	<h3>标签表达式</h3> 
+	<p><strong>在分析表的视图名称中使用</strong><br/>
+	选择此项时,“分析”部分中的“在视图中使用”使用由祖先文件夹的标签表达式(如果设置)确定的标签。</p>
+	
+	<br/> 
+	
+	<h3>其他</h3> 
+	<p><strong>将注释添加到关系的文档字段中以在更改类型时</strong><br/>
+	选择此项时,如果由于更改元素类型导致连接关系类型更改为关联,则会向关系的文档字段中添加注释。</p>
+	
+	<br/> 
+	
+	<p><strong>以正常大小的两倍导出图像</strong><br/>
+	选择此项时,图像以它们正常大小的两倍导出和复制到剪贴板。这默认设置为Windows操作系统,其中显示缩放大于100%,以及Mac Retina设备。这样做是为了在图像中不会降低导出图像质量,因为不可能在图像中设置更高的DPI。这个设置在Linux显示器上通常不需要。</p>
+	
+	<p>如果最终图像需要与逻辑大小相同,您可以在图像编辑器中编辑它,并将DPI设置为原始值的两倍。例如,在Mac上将DPI从72更改为144。</p> <br/> <h3>内部浏览器</h3> <p><strong>使用 MS Edge(仅Windows)</strong><br/>
+	选择此项时,Archi用于帮助系统、提示标签和报告预览的内部浏览器是微软的Edge。在Windows 10上,必须先安装WebView2 Runtime分发。这是x64的“常青独立安装程序”。可以在<a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section">此处</a>获得更多信息和下载。如果更改此设置,需要重新启动Archi。</p>
+	
+	<p><strong>在提示中启用JavaScript</strong><br/>
+	选择此项时,用于提示窗口的内部Web浏览器中启用了JavaScript。</p>
+	
+	<p><strong>在提示中允许外部主机</strong><br/>
+	选择此项时,用于提示窗口的内部Web浏览器中允许非本地Web位置。</p>
+	
+	<br/> 
+	
+	<h3>动画</h3> 
+	<p><strong>对视图进行动画处理</strong><br/>
+	设置是否在图表视图的某些撤消/重做命令和更改视图的连接路由器时使用动画。</p>
+	
+	<p><strong>速度(毫秒)</strong><br/>
+	以毫秒为单位设置在视图中进行动画处理的动画速度。</p>
+	
+	<p><strong>对可视化器进行动画处理</strong><br/>
+	设置是否在首次布局可视化器和单击“布局”按钮时对可视化器使用动画。</p>
+	
+	<p><strong>速度(毫秒)</strong><br/>
+	以毫秒为单位设置在可视化器中进行动画处理的动画速度。</p>
 	
 	<p>&nbsp;</p>
 

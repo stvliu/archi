@@ -4,92 +4,91 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Working in the Model Tree</title>
+<title>使用模型树</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h2>Working in the Model Tree</h2>
-    <p>Generally, you can add, delete, duplicate, move, and rename concepts and Views in the Model Tree. You can also create folders under the main folder groupings in order to group concepts together.</p>
+ 	<h2>使用模型树</h2>
+    <p>通常，您可以在模型树中添加、删除、复制、移动和重命名概念和视图。您还可以在主文件夹分组下创建文件夹，以便将概念组合在一起。</p>
     
     <br/>
 
-    <h2>Drag and drop</h2>
-    <p>Objects are managed with drag and drop in folders. Note that you cannot move concepts from one main folder type to another. For example, Business concepts can only be in the "Business" folder or one of its sub-folders, and relationships can only be in the "Relations" folder or one of its sub-folders.</p>
+    <h2>拖放</h2>
+    <p>对象通过文件夹中的拖放进行管理。请注意，您不能将概念从一种主文件夹类型移动到另一种。例如，业务概念只能在“业务”文件夹或其子文件夹之一中，关系只能在“Relations”文件夹或其子文件夹之一中。</p>
 
     <br/>
 
-    <h2>Cut and Paste</h2>
-    <p>In addition to drag and drop you can cut and paste objects between folders. After selecting objects in the tree select "Cut" and, after selecting the target folder, select "Paste" to move the objects.</p>
+    <h2>剪切和粘贴</h2>
+    <p>除了拖放之外，您还可以在文件夹之间剪切和粘贴对象。在树中选择对象后选择“剪切”，选择目标文件夹后，选择“粘贴”以移动对象。</p>
     
     <br/>
 
-    <h2>Deleting Objects from the Model Tree</h2>
-    <p>To delete one or more objects in the Model Tree select them and choose "Delete" from the main "Edit" menu or from the main toolbar.</p>
+    <h2>从模型树中删除对象</h2>
+    <p>要删除模型树中的一个或多个对象，请选择它们并从主“编辑”菜单或主工具栏中选择“删除”。</p>
     
-    <p>Note that if a concept that you wish to delete appears in one or more Views you will be warned that it is referenced in those Views. <strong>If you then delete the concept from the tree you will also delete it from any Views where it is referenced.</strong></p>
+    <p>请注意，如果您希望删除的概念出现在一个或多个视图中，则会警告您在这些视图中引用了该概念。 <strong>如果您随后从树中删除该概念，您也会将其从引用它的任何视图中删除。</strong></p>
     <img src="../Images/delete_warning.png"/>
-    <p class="caption">Warning about deleting a concept</p>
+    <p class="caption">关于删除概念的警告</p>
     
     <br/>
     
-    <h2>Renaming an Object in the Model Tree</h2>
-    <p>To rename an object in the Model Tree choose "Rename" from the main Edit menu or from the right-click context menu. You can also rename it in the <a href="properties_element.html">Properties Window</a>.</p>
+    <h2>重命名模型树中的对象</h2>
+    <p>要重命名模型树中的对象，请从主编辑菜单或右键单击上下文菜单中选择“重命名”。您也可以在<a href="properties_element.html">属性窗口</a>中重命名它。</p>
     
     <br/>
     
-    <h2>Duplicating an Element or View in the Model Tree</h2>
+    <h2>在模型树中复制元素或视图</h2>
     
-    <p>To duplicate Elements or Views in the Model Tree select "Duplicate" from the main "Edit" menu or from the right-click context menu. Note that Duplicate Views contain references to the original concepts copied.</p>
+    <p>要复制模型树中的元素或视图，请从主“编辑”菜单或右键单击上下文菜单中选择“复制”。请注意，重复视图包含对复制的原始概念的引用。</p>
     
     <br/>
 
-    <h2>Changing an Object's ArchiMate Concept Type in the Model Tree</h2>
-    <p>An Element or Relation's ArchiMate concept type can be changed in the Model Tree. To change one or more objects' ArchiMate concept type in the Model Tree select the required Elements or Relationships and, from the right-click context menu, select the "Set Concept Type" sub-menu and then select the required ArchiMate concept.</p>
-    <p>When changing a Relationship type, only valid ArchiMate Relationships for its source and target concepts will be enabled in the context menu.</p>
-    <p>When changing an Element type, any connected Relationships that would no longer be valid will be changed to Association Relationships. In this case, a confirmation dialog will be shown. An option to add a note in the documentation field of changed Relationships can be enabled in <a href="prefs_general.html">Preferences</a>.</p>
-    <p>When changing an Element type, if it is changed to a concept belonging to a different ArchiMate layer, it will be moved into the appropriate folder. For example, changing a Business Service to an Application Service will move it from the "Business" folder to the "Application" folder.</p>
-    <p>Note that changing a concept type will not retain any assigned Specialization, as this will be invalidated.</p>
+   	<h2>在模型树中更改对象的ArchiMate概念类型</h2>
+	<p>可以在模型树中更改元素或关系的ArchiMate概念类型。要在模型树中更改一个或多个对象的ArchiMate概念类型,请选择所需的元素或关系,然后从右键上下文菜单中选择“设置概念类型”子菜单,然后选择所需的ArchiMate概念。</p>
+	<p>更改关系类型时,上下文菜单中只启用与其源概念和目标概念有效的ArchiMate关系。</p>
+	<p>更改元素类型时,任何不再有效的连接关系都将更改为关联关系。在这种情况下,将显示确认对话框。可以在<a href="prefs_general.html">首选项</a>中启用在更改的关系的文档字段中添加注释的选项。</p>
+	<p>更改元素类型时,如果将其更改为属于不同ArchiMate层的概念,它将被移动到相应的文件夹中。例如,将业务服务更改为应用服务会将其从“业务”文件夹移动到“应用程序”文件夹。</p>
+	<p>请注意,更改概念类型不会保留任何分配的特殊性,因为这将使其无效。</p>
     
     <br/>
     
-    <h2>Editing Properties for an Object in the Model Tree</h2>
-    <p>To edit the Properties for a selected object in the Model Tree, select the object in the tree and open the Properties Window either by double-clicking the object or from the main "Window" menu or main toolbar.</p>
-    <p>Each object in the Model Tree has different properties that can be set or viewed in the Properties Window. For more information see the section, <a href="properties_window.html">The Properties Window</a>.</p>
-    <p>Note - some properties can only be edited when the object is selected in a View (for example, the fill colour, font or line width).</p>
+ 	<h2>在模型树中编辑对象的属性</h2>
+    <p>要在模型树中编辑选定对象的属性，请在树中选择对象并通过双击对象或从主“窗口”菜单或主工具栏打开属性窗口。</p>
+    <p>模型树中的每个对象都有不同的属性，可以在属性窗口中设置或查看。有关详细信息，请参阅<a href="properties_window.html">属性窗口</a>部分。</p>
+    <p>注意 - 只有在视图中选择对象时才能编辑某些属性（例如，填充颜色、字体或线宽）。</p>
     
     <br/>
     
-    <h2>Concepts in the Model Tree and Views</h2>
+    <h2>模型树和视图中的概念</h2>
     
-    <p>Concepts in the Model Tree can be added to any number of diagram Views in the model by dragging them onto the View's canvas (see the section, "Views"). When a concept has been added or used in a View the font used in the Model Tree for that concept is normal. However, if the concept only exists in the Model Tree and is not used in any View it is shown with an <em>italic</em> font:</p>
+    <p>模型树中的概念可以添加到模型中任意数量的图表视图中，方法是将它们拖到视图的画布上（参见“视图”部分）。当在视图中添加或使用概念时，模型树中用于该概念的字体是正常的。但是，如果该概念仅存在于模型树中且未在任何视图中使用，则它会以 <em>斜体</em> 字体显示：</p>
     <img src="../Images/model-tree-italic.png"/>
-    <p class="caption">Italic font shows concepts not used in Views</p>
-    <p>This makes it convenient to see those concepts that may have become redundant and can be deleted.</p>
+    <p class="caption">斜体显示视图中未使用的概念</p>
+    <p>这样可以方便地查看那些可能已经变得多余并且可以删除的概念。</p>
     <br/>
     
-    <h2>Synchronising Selections in the Model Tree and a View</h2>
+    <h2>在模型树和视图中同步选择</h2>
     
-    <p>When selecting concepts in the Model Tree and in diagram Views it is sometimes useful to synchronise the selection between the concepts in both windows. Clicking the "Link to View" button in the Model Tree window enables or disables synchronising selected concepts between the Model Tree and a diagram:</p>
+    <p>在模型树和图表视图中选择概念时，同步两个窗口中的概念之间的选择有时很有用。在“模型树”窗口中按下“链接到视图”按钮可以启用或禁用在模型树和图表之间同步选定的概念：</p>
     <img src="../Images/model-tree-sync.png"/>
-    <p class="caption">The "Link to View" button</p>
-    <p>This button is a toggle and can be turned off or on.</p>
-    <p>Synchronised selection is possible on more than one selected concept.</p>
-    <p>Note that synchronised selection is only possible if a relevant View is open. Selecting a concept in the Model Tree will not synchronise a selection in a View if that View does not contain that particular concept or concepts.</p>
+    <p class="caption">“链接到视图”按钮</p>
+    <p>此按钮是一个开关，可以关闭或打开。</p>
+    <p>可以对多个选定概念进行同步选择。</p>
+    <p>请注意，只有在相关视图打开时才能进行同步选择。如果视图不包含特定概念或概念，则在模型树中选择一个概念将不会同步视图中的选择。</p>
     <br/>
     
-    <h2>Drill Down</h2>
+    <h2>向下钻取</h2>
 
-    <p>Using the Drill Down buttons, "Home", "Back" and "Go Into", it is possible to "drill into" a model or folder. The path to the currently selected object or folder is shown in the Status Bar.</p>
+    <p>使用向下钻取按钮“主页”、“返回”和“进入”，可以“钻取”模型或文件夹。当前选定对象或文件夹的路径显示在状态栏中。</p>
     <img src="../Images/model-tree-drill.png"/>
-    <p class="caption">The "Drill Down" buttons</p>
+    <p class="caption">“向下钻取”按钮</p>
     
-    <h2>Hiding Folders</h2>
-
-    <p>It is possible to hide top-level folders in the Model Tree. A common use case is that the "Relations" folder's contents might get very long and unwieldy. To hide a folder click the drop-down menu in the Model Tree toolbar and tick or untick the folder you wish to hide or show in the "Visible Folders" sub-menu.</p>
-    <img src="../Images/model-tree-folderfilter.png"/>
-    <p class="caption">Showing or hiding top-level folders</p>
+	<h2>隐藏文件夹</h2>
+	<p>可以隐藏模型树中的顶级文件夹。一个常见的用例是“关系”文件夹的内容可能会变得很长和难以管理。要隐藏文件夹,请单击模型树工具栏中的下拉菜单,然后在“可见文件夹”子菜单中选中或取消选中您要隐藏或显示的文件夹。</p>
+	<img src="../Images/model-tree-folderfilter.png"/>
+	<p class="caption">显示或隐藏顶级文件夹</p>
 
     <p>&nbsp;</p>
     

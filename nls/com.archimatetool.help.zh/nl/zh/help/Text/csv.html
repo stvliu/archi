@@ -4,77 +4,77 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Exporting and Importing the Model in CSV Format</title>
+<title>以CSV格式导出和导入模型</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h1 class="pagebreak">Exporting and Importing the Model in CSV Format</h1>
+<h1 class="pagebreak">以CSV格式导出和导入模型</h1>
     
-    <h2>Export Model To CSV</h2>
+    <h2>将模型导出为 CSV</h2>
     
-    <p>You can export a model's data to CSV format (Comma Separated Values). The data is exported in three different files - "elements.csv", "relations.csv" and "properties.csv". All data objects are identified by unique identifiers so that a property will reference an element or relation in the other files.</p>
-    <p>This option is available from the "Export Model To CSV..." menu item from the main "File-&gt;Export" menu. Once a model is selected in the Model Tree or in a View this menu item is enabled.</p>
+    <p>您可以将模型的数据导出为CSV格式（逗号分隔值）。数据以三个不同的文件导出 - “elements.csv”、“relations.csv”和“properties.csv”。所有数据对象都由唯一标识符标识，因此属性将引用其他文件中的元素或关系。</p>
+    <p>此选项可从主“文件->导出”菜单的“导出模型到 CSV...”菜单项中获得。在模型树或视图中选择模型后，此菜单项将启用。</p>
     
     <img src="../Images/csv-export.png" alt="export-csv"/>
-    <p class="caption">Exporting the model to CSV</p>
+    <p class="caption">将模型导出为 CSV</p>
     
     <br/>
-    <p>The CSV field format for elements is - "ID", "Type", "Name", "Documentation", "Specialization"</p>
-    <p>The CSV field format for relations is - "ID","Type", "Name", "Documentation", "Source", "Target", "Specialization"</p>
-    <p>The CSV field format for properties is - "ID", "Key", "Value"</p>
+    <p>元素的CSV字段格式为 - “ID”、“类型”、“名称”、“文档”、“特例化”</p>
+    <p>关系的CSV字段格式为 - “ID”、“类型”、“名称”、“文档”、“来源”、“目标”、“特例化”</p>
+    <p>属性的CSV字段格式为 - “ID”、“键”、“值”</p>
 
-    <p><em>Note - the "Specialization" field is optional when importing.</em></p>
+    <p><em>注意 - “特例化”字段在导入时是可选的。</em></p>
+        
+	<h3>导出选项</h3>
+    <p><strong>输出文件夹</strong><br/>
+    选择输出文件的文件夹。</p>
     
-    <h3>Export Options</h3>
-    <p><strong>Output Folder</strong><br/>
-    Select the folder for the output files.</p>
-    
-    <p><strong>Delimiter</strong><br/>
-    Select the CSV field delimiter character - comma, semicolon, or tab.</p>
+    <p><strong>分隔符</strong><br/>
+    选择CSV字段分隔符 - 逗号、分号或制表符。</p>
 
-    <p><strong>File prefix</strong><br/>
-    Provide an optional prefix to add to the file names. For example, "MyModel-" will change the file names to "MyModel-elements.csv", "MyModel-relations.csv", and "MyModel-properties.csv".</p>
+    <p><strong>文件前缀</strong><br/>
+    提供一个可选前缀以添加到文件名。例如，“MyModel-”会将文件名更改为“MyModel-elements.csv”、“MyModel-relations.csv”和“MyModel-properties.csv”。</p>
 
-    <p><strong>File encoding</strong><br/>
-    Select the file encoding to use - ANSI, UTF-8 or UTF-8 BOM. Some programs prefer one or the other file encoding. For example, MS Excel prefers the "UTF-8 BOM" encoding if Unicode characters are present in the CSV file.</p>
+    <p><strong>文件编码</strong><br/>
+    选择要使用的文件编码 - ANSI、UTF-8 或 UTF-8 BOM。一些程序更喜欢一种或另一种文件编码。例如，如果CSV文件中存在 Unicode 字符，MSExcel更喜欢“UTF-8 BOM”编码。</p>
 
-    <p><strong>Strip newline characters</strong><br/>
-    If selected will remove all newline characters from multi-line text such as documentation.</p>
+    <p><strong>去除换行符</strong><br/>
+    如果选中，将从文档等多行文本中删除所有换行符。</p>
 
-    <p><strong>Excel compatible</strong><br/>
-    If selected will surround text starting with a zero or space with quote marks so that the data imports correctly into Excel. Also, any text field that starts with a "=", "+", "-", or "@" character will be prefixed with a space so that Excel does not interpret it as a formula.</p>
+    <p><strong>Excel 兼容</strong><br/>
+    如果选中，将以零开头的文本或带引号的空格括起来，以便数据正确导入Excel。此外，任何以“=”、“+”、“-”或“@”字符开头的文本字段都将以空格作为前缀，以便Excel不会将其解释为公式。</p>
 
     <br/>
     
-    <h2>Importing CSV Data into a Model</h2>
+    <h2>将CSV数据导入模型</h2>
     
-    <p>You can also import CSV data into an existing model. The CSV files need to be in the same format as described above. Element and relationship IDs are optional, but you need to provide an ID for an element or relationship if it is referenced by another concept or property. If providing an ID then it needs to be unique to the file using alpha-numeric characters, for example - "id1", "8fe456d", "actor3". If an ID is not provided, a blank field "" should be present. In this case, an ID will be generated on import.</p>
+    <p>您还可以将CSV数据导入现有模型。CSV文件的格式必须与上述相同。元素和关系ID是可选的，但如果元素或关系被另一个概念或属性引用，则需要为它提供ID。如果提供ID，则它需要使用字母数字字符对文件唯一，例如 - “id1”、“8fe456d”、“actor3”。如果未提供ID，则应显示空白字段“”。在这种情况下，将在导入时生成一个ID。</p>
     
-    <p>When importing CSV data into an existing model you can provide just one or all three files (elements, relations, properties). Usually you will provide all three files. The format of the files is as follows:</p>
+    <p>将CSV数据导入现有模型时，您可以只提供一个或全部三个文件（元素、关系、属性）。通常您将提供所有三个文件。文件格式如下：</p>
 
-    <p>"xxx-elements.csv"<br/>
-    "xxx-relations.csv"<br/>
-    "xxx-properties.csv"</p>
+    <p>“xxx-elements.csv”<br/>
+    “xxx-relations.csv”<br/>
+    “xxx-properties.csv”</p>
 
-    <p>The prefix ("xxx") is optional but must be the same for all three files if used. All three file names need to match - for example: "myname-elements.csv", "myname-relations.csv" and "myname-properties.csv". At the very least, the filenames need to contain the ".csv" extension and the names end with "elements", "relations" or "properties".</p>
+ 	<p>前缀（“xxx”）是可选的，但如果使用所有三个文件，前缀必须相同。所有三个文件名都需要匹配 - 例如：“myname-elements.csv”、“myname-relations.csv”和“myname-properties.csv”。至少，文件名需要包含“.csv”扩展名，并且名称以“元素”、“关系”或“属性”结尾。</p>
     
-    <p>The best way to understand the required format is to export an existing model to CSV format, and open the resulting files in a text editor, or spreadsheet application</p>
+    <p>了解所需格式的最佳方法是将现有模型导出为CSV格式，然后在文本编辑器或电子表格应用程序中打开生成的文件</p>
     
-    <p>When importing the CSV file(s) into Archi you can select any of the three CSV files in the Import dialog box. If there are corresponding "*.csv" files then these file(s) will be automatically imported at the same time.</p>
+    <p>将CSV文件导入Archi时，您可以在“导入”对话框中选择三个CSV文件中的任何一个。如果有对应的“*.csv”文件，那么这些文件将同时自动导入。</p>
 
-    <p>It is also possible to merge/update the imported CSV data into an existing model. If a model concept already exists as denoted by its ID, and the CSV row entry contains different data to that in the model it is updated. For example, a Business Actor with id "9240f5bf", named "BA1", and no documentation can be updated with a row entry as follows:</p>
+    <p>还可以将导入的CSV数据合并/更新到现有模型中。如果模型概念已经存在，如其ID所示，并且CSV行条目包含与模型中的数据不同的数据，则更新它。例如，ID为“9240f5bf”、名为“BA1”且没有文档的业务施动者可以使用如下行条目更新：</p>
     
-    <p style="font-style:italic;">"ID","Type","Name","Documentation", "Specialization"<br/>
-       "9240f5bf","BusinessActor","New Name","Additional Documentation", "Specialization Name"
+    <p style="font-style:italic;">"ID","Type","Name","Documentation","Specialization"<br/>
+       “9240f5bf”、“BusinessActor”、“新名称”、“附加文档”、“专业名称”
     </p>
 
-    <p>You can import just one or two CSV files into an existing model. If you import just an "elements.csv" file then only elements will be imported. If you then import a "relations.csv" file that uses the corresponding concept IDs you can import just the relations. The same is true for the "properties.csv" file.</p>
+    <p>您可以只将一个或两个CSV文件导入现有模型。如果您只导入一个“elements.csv”文件，那么只会导入元素。如果您随后导入使用相应概念ID的“relations.csv”文件，则可以仅导入关系。 “properties.csv”文件也是如此。</p>
 
-    <p>If you are manually creating CSV files make sure you save them using UTF-8 format to preserve all special characters.</p>
+    <p>如果您手动创建CSV文件，请确保使用UTF-8格式保存它们以保留所有特殊字符。</p>
     
-    <p>Note - it is currently not possible to import and export View diagram information in CSV format.</p>
+    <p>注意 - 目前无法以CSV格式导入和导出视图图表信息。</p>
     
     <p>&nbsp;</p>
 

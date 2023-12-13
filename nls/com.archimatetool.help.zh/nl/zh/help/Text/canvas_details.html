@@ -4,101 +4,100 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Canvas Modelling Toolkit - Getting into the Details</title>
+<title>画布建模工具包 - 深入细节</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h2>Getting into the Details</h2>
-    <p>The main components and concepts that constitute a Canvas are Blocks, Stickies, Images, Connections, Hints and Locking. A Canvas template typically consists of a number of (locked) Blocks and Images onto which the user can add Stickies, Images, Connections and additional Blocks if required. The following sections will describe each of these concepts in detail starting with a description of the Canvas Palette and an example of constructing an imaginary Canvas.</p>
+    <h2>进入细节</h2>
+    <p>构成画布的主要组件和概念有块、便利贴、图像、连接、提示和锁定。画布模板通常由许多（锁定的）块和图像组成，用户可以在这些块和图像上添加便利贴、图像、连接和其他块（如果需要）。以下各节将从画布调色板的描述和构建虚拟画布的示例开始，详细描述这些概念。</p>
     
     <p>&nbsp;</p>
     
-    <h3>The Canvas Palette</h3>
-    <p>When working with a Canvas, the Palette presents you with the tools that you need to create these objects.</p>
+    <h3>画布调色板</h3>
+    <p>使用画布时，调色板会向您提供创建这些对象所需的工具。</p>
     
     <img src="../Images/canvas_palette.png" alt="canvas" />
-    <p class="caption">The Canvas Palette</p>
+    <p class="caption">画布调色板</p>
     
-    <p>Select a tool in the Palette and draw it onto the Canvas. The coloured squares represent "Stickies". Note that you are not restricted to the provided colours as you can change the colour of the Sticky in the <a href="properties_canvas_sticky.html">Properties Window</a>. Similarly with the provided Connections, you can change the line and arrow head style of a Connection in its <a href="properties_canvas_connection.html">Properties Window</a>.</p>
+    <p>在调色板中选择一个工具并将其绘制到画布上。 彩色方块代表“便利贴”。 请注意，您不限于提供的颜色，因为您可以在 <a href="properties_canvas_sticky.html">属性窗口</a> 中更改便利贴的颜色。 与提供的连接类似，您可以在其 <a href="properties_canvas_connection.html">属性窗口中更改连接的线条和箭头样式</a>.</p>
     
     <p>&nbsp;</p>
     
-    <h3>Constructing a new Canvas - an Example</h3>
-    <p>Let's work through the process of constructing our own Canvas based on mapping Past, Present and Future concepts.</p>
-    <p>Assuming that you have a model selected in the Model Tree follow these steps:</p>
+    <h3>构建一个新的画布 - 一个例子</h3>
+    <p>让我们通过绘制过去、现在和未来的概念来构建我们自己的画布的过程。</p>
+    <p>假设您在模型树中选择了一个模型，请执行以下步骤：</p>
     
     <ol>
-      <li>Right click on the "Views" folder of your model on the Model Tree and select "New-&gt;Blank Canvas":<br/>
+      <li>右键单击模型树上模型的“视图”文件夹，然后选择“新建->空白画布”：<br/>
         <br/>
         <img src="../Images/canvas_new_blank.png" alt="canvas" /><br/>
         <br/>
       </li>
-      <li>The Blank Canvas View will automatically open. You can rename it at this point in the Model Tree if you wish.</li>
-      <li>From the Palette select the Block tool and draw a tall rectangular Block on the Canvas. Edit its text content by clicking on it and changing it to "Past":<br/>
+      <li>空白画布视图将自动打开。 如果您愿意，您可以在模型树中重命名它。</li>
+      <li>从调色板中选择块工具并在画布上绘制一个高矩形块。 通过单击它并将其更改为“过去”来编辑其文本内容：<br/>
         <br/>
         <img src="../Images/canvas_example1.png" alt="canvas" /><br/>
         <br/>
       </li>
-      <li>Create two more Blocks named "Present" and "Future" adding them to the Canvas so that they line up as follows:<br/>
+      <li>再创建两个名为“现在”和“未来”的块，将它们添加到画布，使它们排列如下：<br/>
         <br/>
         <img src="../Images/canvas_example2.png" alt="canvas" /><br/>
         <br/>
       </li>
-      <li>Now let's add some icons to these Blocks to make them visually more appealing. Double-click on the first Block to open the Properties Window. In the Properties Window select the "Image" tab. Then select the "Choose..." drop-down box and the "Set Image..." item:<br/>
+      <li>现在让我们为这些块添加一些图标，使它们在视觉上更具吸引力。 双击第一个块以打开属性窗口。 在属性窗口中选择“图像”选项卡。 然后选择“选择...”下拉框和“设定图片...”项：<br/>
         <br/>
         <img src="../Images/canvas_example3.png" alt="canvas" /><br/>
         <br/>
-        When the "My Images" Image Manager dialog window opens, select the "Open from File..." option and choose an appropriate image from your computer's file system. Do the same for the other Blocks.<br/>
+        当“我的图像”图像管理器对话框窗口打开时，选择“从文件打开...”选项并从计算机的文件系统中选择合适的图像。对其他块执行相同的操作。<br/>
         <br/>
       </li>
-      <li>Here's how it looks so far with the images that we have selected for the three Blocks:<br/>
+      <li>以下是我们为三个块选择的图像到目前为止的样子：<br/>
         <br/>
         <img src="../Images/canvas_example4.png" alt="canvas" /><br/>
         <br/>
       </li>
-      <li>  Now that we have constructed our three main Blocks we could take this opportunity to change their background colour, their text fonts and positions in the Properties Window. But for now let's add an Image underneath the Blocks. From the Palette select the Image tool and draw a rectangular Image place-holder on the Canvas right underneath the Blocks. Double-click on the Image place-holder to open the Properties Window. In the Properties Window on the "Main" tab select the "Choose..." drop-down box and the "Set Image..." item, as you did before for a Block, and select an appropriate image from your computer's file system. Then from the "Appearance" tab set the border to "None". The Canvas now looks like the following:<br/>
+      <li>  现在我们已经构建了三个主要块，我们可以借此机会更改它们的背景颜色、它们的文本字体和在属性窗口中的位置。 但是现在让我们在块下面添加一个图像。 从调色板中选择图像工具并在块正下方的画布上绘制一个矩形图像占位符。 双击图像占位符以打开属性窗口。 在“基本”选项卡的“属性”窗口中，选择“选择...”下拉框和“设置图像...”项，就像之前对块所做的那样，然后从计算机文件中选择适当的图像系统。然后从“外观”选项卡中将边框设置为“无”。 画布现在如下所示：<br/>
         <br/>
         <img src="../Images/canvas_example5.png" alt="canvas" /><br/>
         <br/>
       </li>
     </ol>
     
-    <p><strong>Adding Hints and Locking</strong></p>
+    <p><strong>添加提示和锁定</strong></p>
     
-    <p>For the finishing touches let's add some Hints to the Blocks and then lock them so that we can re-use the Canvas as a Template. Why do we want to add Hints to the Blocks? Well, as with the other objects in Archi models it's extremely helpful to provide a rubric that suggests to the end user the intent of the object and how it can be used in the model. Let's add the hints:</p>
+    <p>最后，让我们为块添加一些提示，然后锁定它们，以便我们可以将画布重新用作模板。 为什么我们要向块添加提示？ 好吧，与Archi模型中的其他对象一样，提供一个向最终用户建议对象的意图以及如何在模型中使用它的量规非常有帮助。 让我们添加提示：</p>
     
     <ol>
-      <li>First ensure that the <a href="hints.html">Hints Window</a> is open. You can open it from the main "Window" menu.</li>
-      <li>Double-click on the first Block (the "Past" Block) in order to open the Properties Window.</li>
-      <li>In the Properties Window select the "Hint" tab.</li>
-      <li>Type "Past" for the Hint title, and some text for the Hint Content. Note that you can use HTML to mark up your content text. Here's what it looks like now:<br/>
-        <br/>
-      <img src="../Images/canvas_example6.png" alt="canvas" /><br/>
-      <br/>
-      </li>
-      <li>Add Hints for the other Blocks.</li>
-      <li>Now let's lock all these objects so that we can use the Canvas. Select each Block and the Image in turn. In the Properties Window tick the "Locked" checkbox:<br/>
-        <br/>
-        <img src="../Images/canvas_example7.png" alt="canvas" /><br/>
-      </li>
-    </ol>
-    
-    <p><br/> 
-      Now that we have created the Blocks, added an Image, provided the Hints and locked the objects we can save the whole thing as a Canvas Template and then create new instances of the Canvas from the template. See the sections "<a href="canvas_save_as_template.html">Saving a Canvas as a Template</a>" and 
-    "<a href="canvas_new_from_template.html">Creating a New Canvas from a Template</a>" to do this.</p>
-    <p>Creating a new Canvas instance from the template means we can now start using it for real:</p>
-    <img src="../Images/canvas_example8.png" alt="canvas" />
-    <p class="caption">Our imaginary Canvas</p>
-    
-    <p>For more ideas, look at how the built-in Canvas templates are constructed for further examples. See the section "<a href="canvas_new_from_template.html">Creating a New Canvas from a Template</a>".</p>
-    
-    <p>&nbsp;</p>
-    
-    <p class="boxout"><img src="../Images/tip.png" class="tipImage" alt="tip"/><strong>Archi uses a different file format for "*.archimate" files when adding images.</strong><br/>Normally Archi saves "*.archimate" files as single plain text XML format files. However, when images are used the file format used is a binary archive file (zip format) that contains both the model's XML file and the image files. This is to keep all related files together.</p>
-
-    <p>&nbsp;</p>
+	 <li>首先确保 <a href="hints.html">提示窗口</a> 已打开。您可以从主“窗口”菜单打开它。</li>
+	      <li>双击第一个块（“过去”块）以打开属性窗口。</li>
+	      <li>在“属性”窗口中选择“提示”选项卡。</li>
+	      <li>为提示标题输入“过去”，为提示内容输入一些文本。请注意，您可以使用HTML来标记您的内容文本。这是它现在的样子：<br/>
+	        <br/>
+	      <img src="../Images/canvas_example6.png" alt="canvas" /><br/>
+	      <br/>
+	      </li>
+	      <li>为其他块添加提示。</li>
+	      <li>现在让我们锁定所有这些对象，以便我们可以使用画布。依次选择每个块和图像。在属性窗口中勾选“锁定”复选框：<br/>
+	        <br/>
+	        <img src="../Images/canvas_example7.png" alt="canvas" /><br/>
+	      </li>
+	    </ol>
+	    
+	    <p><br/>
+	      现在我们已经创建了块，添加了图像，提供了提示并锁定了对象，我们可以将整个东西保存为画布模板，然后从模板创建画布的新实例。请参阅“<a href="canvas_save_as_template.html">将画布另存为模板</a>”部分和
+	    “<a href="canvas_new_from_template.html">从模板创建新画布</a>”来执行此操作。</p>
+	    <p>从模板创建一个新的画布实例意味着我们现在可以开始真正使用它了：</p>
+	    <img src="../Images/canvas_example8.png" alt="canvas" />
+	    <p class="caption">我们想象中的画布</p>
+	    
+	    <p>有关更多想法，请查看内置画布模板的构建方式以获取更多示例。请参阅“<a href="canvas_new_from_template.html">从模板创建新画布</a>”部分。</p>
+	    
+	    <p>&nbsp;</p>
+	    
+	    <p class="boxout"><img src="../Images/tip.png" class="tipImage" alt="tip"/><strong>Archi 对“*.archimate”文件使用不同的文件格式添加图像时。</strong><br/>通常Archi将“*.archimate”文件保存为单个纯文本XML格式文件。但是，当使用图像时，使用的文件格式是二进制存档文件（zip格式），其中包含模型的XML文件和图像文件。这是为了将所有相关文件放在一起。</p>
+	    <p>&nbsp;</p>
 
 </body>
 </html>

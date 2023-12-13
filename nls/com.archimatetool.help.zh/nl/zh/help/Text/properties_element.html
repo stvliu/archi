@@ -4,79 +4,109 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Element Properties</title>
+<title>元素属性</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h2>Element Properties</h2>
-    
-    <p>Selecting a model element in the Model Tree or in a View means that you can edit or view the following properties in the Properties Window.</p>
-    
-    <br/>
-    
-    <p class="heading">The Main Tab</p>
-    
-    <img src="../Images/properties_element1.png"/>
-    <p class="caption">Editing the "Main" Properties for an ArchiMate Element</p>
-    
-    <table>
-      <tr>
-        <td valign="top"><strong>Specialization:</strong></td>
-        <td>Select the Specialization for this ArchiMate element. The button to the right of the drop-down control will open the <a href="specializations_manager.html">Specializations Manager</a>.</td>
-      </tr>
-      <tr>
-        <td><strong>Name:</strong></td>
-        <td>The name of the ArchiMate element</td>
-      </tr>
-      <tr>
-        <td valign="top"><strong>Documentation:</strong></td>
-        <td>A space to enter some user documentation relating to the ArchiMate element</td>
-      </tr>
-    </table>
-    
-    <br/>
-    
-    <p class="boxout"><img src="../Images/tip.png" class="tipImage"/>In the "Documentation" text control, URLs that start with "http://" "https://" or "ftp://" will show as a hyperlink. Holding the Ctrl / Command key will change the cursor to a "hand" cursor and you can open the link in a Browser.</p>
-    
-    <br/>
-    
-    <p>The <strong>Junction</strong> connector has an additional property for type:</p>
-    
-    <img src="../Images/junction_properties.png"/>
-    <p class="caption">The Junction Type property</p>
-    
-    <table>
-      <tr>
-        <td><strong>Type:</strong></td>
-        <td>Can be set to "And" or "Or". Setting this also changes the element's icon.</td>
-      </tr>
-    </table>
-    
-    <br/>
-    
-    <p class="heading">The Properties Tab</p>
-    
-    <p>For more information about creating and managing User Properties see <a href="properties_user_properties.html">User Properties</a>.</p>
-    
-    <br/>
-    
-    <p class="heading">The Analysis Tab</p>
-    
-    <img src="../Images/properties_element2.png"/>
-    <p class="caption">Viewing the "Analysis" for an ArchiMate Element</p>
-    
-    <table>
-      <tr>
-        <td><strong>Used in Views:</strong></td>
-        <td>A table showing the Views (if any) where the selected element is used (displayed in a diagram). Double-clicking on an entry in the table will open the View and select the element in the diagram.</td>
-      </tr>
-      <tr>
-        <td><strong>Model Relations:</strong></td>
-        <td>A table showing the relationships (if any) to and from the selected element in the model. Double-clicking on an entry in the table will select the relationship in the Model Tree window if it is open.</td>
-      </tr>
-    </table>
+	<h2>元素属性</h2>
+	
+	<p>在模型树或视图中选择一个模型元素意味着您可以在属性窗口中编辑或查看以下属性。</p>
+	
+	<br/>
+	
+	<p class="heading">主标签页</p>
+	
+	<img src="../Images/properties\_element1.png"/>
+	
+	<p class="caption">编辑ArchiMate元素的“主”属性</p>
+	
+	<table>
+	
+	<tr>
+	
+	<td valign="top"><strong>专业化:</strong></td>
+	
+	<td>为此ArchiMate元素选择专业化。下拉控件右侧的按钮将打开<a href="specializations\_manager.html">专业化管理器</a>。</td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td><strong>名称:</strong></td>
+	
+	<td>ArchiMate 元素的名称</td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td valign="top"><strong>文档:</strong></td>
+	
+	<td>一个输入与ArchiMate元素相关的一些用户文档的空间</td>
+	
+	</tr>
+	
+	</table>
+	
+	<br/>
+	
+	<p class="boxout"><img src="../Images/tip.png" class="tipImage"/>在“文档”文本控件中,以“http://”、“https://”或“ftp://”开头的 URL 将显示为超链接。按住 Ctrl/Command 键会将光标更改为“手”光标,您可以在浏览器中打开该链接。</p>
+	
+	<br/>
+	
+	<p>连接器<strong>连接点</strong> 有一个额外的类型属性:</p>
+	
+	<img src="../Images/junction\_properties.png"/>
+	
+	<p class="caption">连接点类型属性</p>
+	
+	<table>
+	
+	<tr>
+	
+	<td><strong>类型:</strong></td>
+	
+	<td>可以设置为“与”或“或”。设置此属性也会更改元素的图标。</td>
+	
+	</tr>
+	
+	</table>
+	
+	<br/>  
+	
+	<p class="heading">属性标签页</p>
+	
+	<p>有关创建和管理用户属性的更多信息,请参阅<a href="properties\_user\_properties.html">用户属性</a>。</p>
+	
+	<br/>
+	
+	<p class="heading">分析标签页</p>
+	
+	<img src="../Images/properties\_element2.png"/>
+	
+	<p class="caption">查看ArchiMate元素的“分析”</p>
+	
+	<table>
+	
+	<tr>
+	
+	<td><strong>用于视图中:</strong></td>
+	
+	<td>显示所选元素在哪些视图(如果有)中被使用(显示在图中)的表格。双击表格中的条目将打开该视图并在图中选择该元素。</td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td><strong>模型关系:</strong></td>
+	
+	<td>显示从模型中的所选元素到和从所选元素的关系(如果有)的表格。如果模型树窗口打开,双击表格中的条目将在模型树窗口中选择该关系。</td>
+	
+	</tr>
+	
+	</table>
     
     <p>&nbsp;</p>
 

@@ -4,42 +4,41 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Importing Another Model into the Current Model</title>
+<title>将另一个模型导入当前模型</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <h1 class="pagebreak">Importing Another Model into the Current Model</h1>
+	 <h1 class="pagebreak">将另一个模型导入当前模型</h1>
 
-    <p>It is possible to import and merge another Archi model into the currently selected model. You can then maintain the imported model as a reference model that you can update separately and re-import as required.</p>
+    <p>可以将另一个Archi模型导入并合并到当前选定的模型中。然后，您可以将导入的模型作为参考模型进行维护，您可以单独更新并根据需要重新导入。</p>
 
-    <p>Some things to consider when importing another model:</p>
+    <p>导入另一个模型时需要考虑的一些事项：</p>
 
     <ul>
-        <li>Model objects are uniquely referenced by their type and identifier. When importing a model, these are used to match the imported objects to the target objects.</li>
-        <li>All User Properties for an object are replaced when importing, there is no merging at this level.</li>
-        <li>Some changes in the imported model might affect connections in Views if relationships are changed or deleted. These are reported in the status dialog after import.</li>
-        <li>Existing target objects and folders will not be deleted even if these are deleted from the imported model.</li>
+        <li>模型对象由它们的类型和标识符唯一引用。导入模型时，这些用于将导入的对象与目标对象进行匹配。</li>
+        <li>导入时替换对象的所有用户属性，此级别没有合并。</li>
+        <li>如果更改或删除关系，导入模型中的某些更改可能会影响视图中的连接。这些会在导入后在状态对话框中报告。</li>
+        <li>即使从导入的模型中删除现有的目标对象和文件夹，也不会被删除。</li>
     </ul>
 
-    <h2>Importing another Archi model</h2>
+    <h2>导入另一个Archi模型</h2>
 
-    <p>To import another Archi model into the currently selected model select "Import an Archi model into the currently selected model" from the main "File" menu. The following dialog will appear:</p>
+    <p>要将另一个Archi模型导入当前选定的模型，请从主“文件”菜单中选择“将Archi模型导入当前选定的模型”。将出现以下对话框：</p>
     
     <img src="../Images/importmodel-wizard.png" alt="import-model"/>
-    <p class="caption">Importing another model</p>
+    <p class="caption">导入另一个模型</p>
 
-    <h3>Import Options</h3>
+    <h3>导入选项</h3>
 
-    <p><strong>Update existing objects and folders</strong><br/>
-    If this is selected then any existing target objects and folders will be updated when importing.</p>
+    <p><strong>更新现有对象和文件夹</strong><br/>
+    如果选择此项，则导入时将更新任何现有的目标对象和文件夹。</p>
     
-    <p><strong>Update model information and top-level folders</strong><br/>
-    If this is selected then if there are any changes to the model node (Name, Documentation, Properties) these will be updated. If there are changes to any top-level folders (Documentation, Properties) these will also be updated.</p>
+    <p><strong>更新模型信息和顶级文件夹</strong><br/>
+    如果选择此选项，则如果模型节点（名称、文档、属性）有任何更改，这些将被更新。如果任何顶级文件夹（文档、属性）发生变化，这些也会被更新。</p>
 
-    <p><strong>Show Status Dialog after importing</strong><br/>
-    If this is selected then a status dialog is shown after importing a model. This will list what was updated or changed.</p>
-
+    <p><strong>导入后显示状态对话框</strong><br/>
+    如果选择此项，则在导入模型后会显示一个状态对话框。这将列出更新或更改的内容。</p>
     <p>&nbsp;</p>
 
 </body>
