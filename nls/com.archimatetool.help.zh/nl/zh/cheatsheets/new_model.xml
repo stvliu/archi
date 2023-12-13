@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cheatsheet
-      title="Create a New Model">
+      title="创建一个新模型">
    <intro>
       <description>
-         This cheat sheet is a step-by-step description of how to create a basic ArchiMate model.
+         此备忘单是如何创建基本 ArchiMate 模型的分步说明。
       </description>
    </intro>
    <item
          skip="false"
-         title="Open the Model Tree">
+         title="打开模型树">
       <description>
-         In order to see the model in the Model Tree, make sure the Model Tree Window is visible.
+         为了在模型树中查看模型，请确保模型树窗口可见。
       </description>
       <action
       		required="false"
@@ -20,9 +20,9 @@
             
    </item>
    <item
-         title="Add a New Model">
+         title="添加新模型">
       <description>
-         Add a new Model by clicking the <b>&quot;New Empty Model&quot;</b> button on the toolbar or by right-clicking in the Model Tree Window and selecting <b>&quot;New Empty Model&quot;</b>.
+         通过单击工具栏上的<b>“新建空模型”</b> 按钮或在模型树窗口中右键单击并选择<b>“新建空模型”</b> 来添加新模型。
       </description>
       <action
       		required="false"
@@ -30,11 +30,11 @@
       		class="com.archimatetool.editor.actions.NewArchimateModelAction"/>
    </item>
    <item
-         title="Add Elements to the Model">
+         title="向模型添加元素">
       <description>
-         You should now see the basic folder structure of your new model in the Model Tree.  Also, you should see the <b>Model Diagram Window</b> open. This is where you can visually build your Model by dragging elements and connections from the palette to the diagram.
+         您现在应该在模型树中看到新模型的基本文件夹结构。 此外，您应该会看到 <b>模型图窗口</b> 打开。 在这里，您可以通过将元素和连接从调色板拖到图表来直观地构建模型。
 <br/><br/>
-You can also add elements directly to the Model Tree by right-clicking on a folder and selecting the <b>&quot;New&quot;</b> menu action. Once added, the elements can be dragged from the Tree to the Diagram.
+您还可以通过右键单击文件夹并选择 <b>“新建”</b> 菜单操作将元素直接添加到模型树。 添加后，可以将元素从树拖到图表中。
       </description>
    </item>
 </cheatsheet>

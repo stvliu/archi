@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cheatsheet
-      title="Create a Map View">
+      title="生成一个地图视图">
    <intro>
       <description>
-         This cheat sheet shows you how to create a Map View of your existing Views. A Map View contains graphical boxes that are shortcuts that when double-clicked will open the linked View.<br/>
+         此备忘单向您展示了如何从现有视图创建地图视图。 地图视图包含作为快捷方式的图形框，双击时将打开链接的视图。<br/>
 <br/>
-You can create these manually by dragging a View from the tree to an open Diagram view.<br/>
+您可以通过将视图从树中拖动到打开的图表视图来手动创建这些视图。<br/>
 <br/>
-This cheat sheet can create one for you automatically, provided you have the Model Tree View open, that you have an Archimate model selected in the tree and the model has more than one View.
+此备忘单可以自动为您创建一个，前提是您打开了模型树视图，并且在树中选择了Archimate模型并且该模型具有多个视图。
       </description>
    </intro>
    <item
          skip="true"
-         title="Open the Model Tree">
+         title="打开模型树">
       <description>
-         Firstly, you need to ensure that the Model Tree is open. You can either do that manually from the <b>Window &gt; Models</b> main menu or from this cheat sheet automatically.
+         首先，您需要确保模型树是打开的。 您可以从 <b>窗口 &gt; 模型</b> 主菜单手动执行此操作，也可以从该备忘单自动执行此操作。
       </description>
       <action
       		required="false"
@@ -24,9 +24,9 @@ This cheat sheet can create one for you automatically, provided you have the Mod
             
    </item>
    <item
-         title="Create the Map View">
+         title="创建地图视图">
       <description>
-         Create the new Map View here automatically. <b>Make sure you have a model selected in the Model Tree,  and that it has more than one View.</b>
+         在此处自动创建新的地图视图。 <b>确保您在模型树中选择了一个模型，并且它有多个视图。</b>
       </description>
       <action
       		required="false"
@@ -34,9 +34,9 @@ This cheat sheet can create one for you automatically, provided you have the Mod
       		class="com.archimatetool.help.cheatsheets.CreateMapViewCheatSheetAction"/>
    </item>
    <item
-         title="Done!">
+         title="完成！">
       <description>
-         That&apos;s it. Done!
+         就这样。完成！
       </description>
    </item>
 </cheatsheet>

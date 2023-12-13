@@ -2,212 +2,212 @@
 <?NLS TYPE="org.eclipse.help.contexts"?> 
 <contexts>
     
-    <context id="treeModelViewHelp" title="The Model Tree">
-        <description>The Model Tree displays all ArchiMate models.</description>
+    <context id="treeModelViewHelp" title="模型树">
+        <description>模型树显示所有ArchiMate模型。</description>
         <topic label="The Model Tree" href="help/Text/model_tree.html"/>
     </context>
-    <context id="outlineViewHelp" title="The Outline Window">
-       <description>The Outline window acts as a miniature viewport onto the selected diagram View in order to aid in navigation if the diagram is too large to fit in the window.</description>
+   <context id="outlineViewHelp" title="大纲窗口">
+       <description>“大纲”窗口充当所选图表视图的微型视口，以便在图表太大而无法放入窗口时帮助导航。</description>
        <topic href="help/Text/outline.html" label="The Outline Window"/>
     </context>
-    <context id="navigatorViewHelp" title="The Navigator Window">
-       <description>The Navigator window displays the currently selected model element and all of its relationships with other elements.</description>
+   <context id="navigatorViewHelp" title="导航窗口">
+       <description>“导航器”窗口显示当前选定的模型图元及其与其他图元的所有关系。</description>
        <topic href="help/Text/navigator.html" label="The Navigator Window"/>
     </context>
-    <context id="zestViewHelp" title="The Visualiser Window">
-       <description>The Visualiser window displays the currently selected model element and all of its relationships with other elements in a diagrammatic layout.</description>
+   <context id="zestViewHelp" title="可视化分析窗口">
+       <description>可视化分析窗口以图表布局显示当前选定的模型元素及其与其他元素的所有关系。</description>
        <topic href="help/Text/visualiser.html" label="The Visualiser Window"/>
     </context>
-    <context id="hintsViewHelp" title="Hints Window">
-       <description>The Hints window shows a hint for the selected element or palette entry. It can be useful to provide basic information about the purpose of the elements and relationships in a model.</description>
+    <context id="hintsViewHelp" title="提示窗口">
+       <description>提示窗口显示所选元素或调色板项的提示。提供有关模型中元素和关系的用途的基本信息可能很有用。</description>
        <topic href="help/Text/hints.html" label="The Hints Window"/>
     </context>
-    <context id="canvasEditorHelp" title="Canvas Editor">
-       <description>Creating Canvasses with the Canvas Modelling Toolkit</description>
-       <topic href="help/Text/canvas.html" label="Canvas Modelling Toolkit"/>
+   <context id="canvasEditorHelp" title="画布编辑器">
+       <description>使用画布建模工具包创建画布</description>
+      <topic href="help/Text/canvas.html" label="画布建模工具包"/>
     </context>
-    <context id="validatorViewHelp" title="The Validator">
-       <description>The Validator provides hints and tips to improve your model.</description>
+   <context id="validatorViewHelp" title="验证器">
+      <description>验证器提供了改进模型的提示和提示。</description>
        <topic href="help/Text/validator.html" label="The Validator"/>
     </context>
-    <context id="diagramEditorHelp" title="Diagram View">
-       <description>The elements and relationships that constitute an ArchiMate model as represented in the Model Tree can be arranged into one or more "Views" or visual diagrams.</description>
-       <topic href="help/Text/views.html" label="Views"/>
-       <topic href="help/Text/viewpoints.html" label="Viewpoints"/>
+    <context id="diagramEditorHelp" title="图形视图">
+       <description>模型树中表示的构成ArchiMate模型的元素和关系可以排列成一个或多个“视图”或可视化图表。</description>
+       <topic href="help/Text/views.html" label="视图"/>
+       <topic href="help/Text/viewpoints.html" label="视点"/>
     </context>
-    <context id="sketchEditorHelp" title="Sketch View">
-       <description>The Sketch View offers a quick way to capture a model.</description>
-       <topic href="help/Text/sketch_view.html" label="The Sketch View"/>
+    <context id="sketchEditorHelp" title="草图视图">
+       <description>草图视图提供了捕捉模型的快速方法。</description>
+       <topic href="help/Text/sketch_view.html" label="草图视图"/>
     </context>
-    <context id="elementPropertySection" title="Element Properties">
-       <description>Edit Element Properties.</description>
-       <topic href="help/Text/properties_element.html" label="Element Properties"/>
-       <topic href="help/Text/properties_element_appearance.html" label="Element Appearance Properties"/>
-       <topic href="help/Text/properties_relation.html" label="Relationship Properties"/>
-       <topic href="help/Text/properties_relation_appearance.html" label="Relationship Connection Appearance Properties"/>
-       <topic href="help/Text/properties_folder.html" label="Folder Properties"/>
-       <topic href="help/Text/properties_group.html" label="Group Properties"/>
-       <topic href="help/Text/properties_note.html" label="Note Properties"/>
-       <topic href="help/Text/properties_canvas_image.html" label="Image Properties"/>
-       <topic href="help/Text/properties_canvas_block.html" label="Block Properties"/>
-       <topic href="help/Text/properties_canvas_sticky.html" label="Sticky Properties"/>
-       <topic href="help/Text/properties_canvas_connection.html" label="Connection Properties"/>
+    <context id="elementPropertySection" title="元素属性">
+       <description>编辑元素属性。</description>
+       <topic href="help/Text/properties_element.html" label="元素属性"/>
+       <topic href="help/Text/properties_element_appearance.html" label="元素外观属性"/>
+       <topic href="help/Text/properties_relation.html" label="关系属性"/>
+       <topic href="help/Text/properties_relation_appearance.html" label="关系连接外观属性"/>
+       <topic href="help/Text/properties_folder.html" label="文件夹属性"/>
+       <topic href="help/Text/properties_group.html" label="组属性"/>
+       <topic href="help/Text/properties_note.html" label="备注属性"/>
+       <topic href="help/Text/properties_canvas_image.html" label="图像属性"/>
+       <topic href="help/Text/properties_canvas_block.html" label="块属性"/>
+       <topic href="help/Text/properties_canvas_sticky.html" label="便利贴属性"/>
+       <topic href="help/Text/properties_canvas_connection.html" label="连接属性"/>
     </context>
-    <context id="labelPropertySection" title="Label Expression">
-       <description>Edit Label Expression.</description>
-       <topic href="https://github.com/archimatetool/archi/wiki/Label-Expressions" label="Label Expressions"/>
+    <context id="labelPropertySection" title="标签表达式">
+       <description>编辑标签表达式。</description>
+       <topic href="https://github.com/archimatetool/archi/wiki/Label-Expressions" label="标签表达式"/>
     </context>
-    <context id="folderSection" title="Folder Properties">
-       <description>Edit Folder Properties.</description>
-       <topic href="help/Text/properties_folder.html" label="Folder Properties"/>
+    <context id="folderSection" title="文件夹属性">
+       <description>编辑文件夹属性。</description>
+       <topic href="help/Text/properties_folder.html" label="文件夹属性"/>
     </context>
-    <context id="diagramModelSection" title="View Properties">
-       <description>Edit View Properties.</description>
-       <topic href="help/Text/properties_view.html" label="View Properties"/>
+    <context id="diagramModelSection" title="视图属性">
+       <description>编辑视图属性。</description>
+       <topic href="help/Text/properties_view.html" label="视图属性"/>
     </context>
-    <context id="archimateModelSection" title="Model Properties">
-       <description>Edit Model Properties.</description>
-       <topic href="help/Text/properties_model.html" label="Model Properties"/>
+   <context id="archimateModelSection" title="模型属性">
+       <description>编辑模型属性。</description>
+       <topic href="help/Text/properties_model.html" label="模型属性"/>
     </context>
-    <context id="usedInRelationshipsSection" title="Model Relations">
-       <description>A table showing the Relationships (if any) to and from the selected element in the model. Double-clicking on an entry in the table will select the element in the Model Tree window if it is open.</description>
-       <topic href="help/Text/properties_element.html" label="Element Properties"/>
+    <context id="usedInRelationshipsSection" title="模型关系">
+       <description>显示与模型中选定元素之间的关系（如果有）的表。双击表中的条目将在“模型树”窗口中选择打开的元素。</description>
+       <topic href="help/Text/properties_element.html" label="元素顺序"/>
     </context>
-    <context id="usedInViewsSection" title="Used in Views">
-       <description>A table showing the Views (if any) where the selected element is used (displayed in a diagram). Double-clicking on an entry in the table will open the View and select the element in the diagram.</description>
-       <topic href="help/Text/properties_element.html" label="Element Properties"/>
-    </context>
-    <context id="diagramFigureTypeSection" title="Figure Type">
-       <topic href="help/Text/properties_figures.html" label="Figure Types"/>
-       <description>Choose the figure to represent this Element.</description>
-    </context>
-    <context id="diagramEditorPaletteHelp" title="The Palette">
-       <description>The Palette is used for creating and selecting.</description>
-       <topic href="help/Text/view_palette.html" label="The Palette"/>
-       <topic href="help/Text/view_palette_tools.html" label="Palette Selection Tools"/>
-       <topic href="help/Text/view_palette_creation_tools.html" label="Palette Creation Tools"/>
-       <topic href="help/Text/view_format_painter.html" label="The Format Painter"/>
-    </context>
-    <context id="prefsAppearance" title="Appearance Preferences">
-       <description>Change Appearance, Colours and Fonts Preferences.</description>
-       <topic href="help/Text/prefs_appearance.html" label="Appearance Preferences"/>
-    </context>
-    <context id="prefsCanvas" title="Canvas Preferences">
-       <description>Edit the Canvas Modelling Toolkit Preferences.</description>
-       <topic href="help/Text/prefs_canvas.html" label="Canvas Modelling Toolkit Preferences"/>
-    </context>
-    <context id="prefsConnections" title="Connections Preferences">
-       <description>Edit the Connections Preferences.</description>
-       <topic href="help/Text/prefs_connections.html" label="Connections Preferences"/>
-    </context>
-    <context id="prefsDiagram" title="Diagram Preferences">
-       <description>Edit the Diagram Preferences.</description>
-       <topic href="help/Text/prefs_diagram.html" label="Diagram Preferences"/>
-    </context>
-    <context id="prefsGeneral" title="General Preferences">
-       <description>Edit the General Preferences.</description>
-       <topic href="help/Text/prefs_general.html" label="General Preferences"/>
-    </context>
-    <context id="prefsJasper" title="Jasper Reports Preferences">
-       <description>Edit the Jasper Reports Preferences.</description>
-       <topic href="help/Text/prefs_jasper.html" label="Jasper Reports Preferences"/>
-    </context>
-    <context id="prefsValidator" title="Validator Preferences">
-       <description>Edit the Validator Preferences.</description>
-       <topic href="help/Text/prefs_validator.html" label="Validator Preferences"/>
-    </context>
-    <context id="userProperties" title="User Properties">
-       <description>Edit User Properties</description>
-       <topic href="help/Text/properties_user_properties.html" label="User Properties"/>
+   <context id="usedInViewsSection" title="在视图中使用">
+       <description>显示使用所选元素的视图(如果有的话)的表格(显示在图表中)。双击表中的条目将打开视图并选择图中的元素。</description>
        <topic href="help/Text/properties_element.html" label="Element Properties"/>
     </context>
-    <context id="NewNestedRelationDialog" title="Container Elements and Nested Element Relationships">
-       <description>Add a new Nested Element Relationship.</description>
-       <topic href="help/Text/view_container_nested.html" label="Container Elements and Nested Element Relationships"/>
+    <context id="diagramFigureTypeSection" title="图形类型">
+       <topic href="help/Text/properties_figures.html" label="图形类型"/>
+       <description>选择表示此元素的图形。</description>
     </context>
-    <context id="NewNestedRelationsDialog" title="Container Elements and Nested Element Relationships">
-       <description>Add new Nested Element Relationships.</description>
-       <topic href="help/Text/view_container_nested.html" label="Container Elements and Nested Element Relationships"/>
+    <context id="diagramEditorPaletteHelp" title="调色板">
+       <description>调色板用于创建和选择。</description>
+       <topic href="help/Text/view_palette.html" label="调色板"/>
+       <topic href="help/Text/view_palette_tools.html" label="调色板选择工具"/>
+       <topic href="help/Text/view_palette_creation_tools.html" label="调色板生成工具"/>
+       <topic href="help/Text/view_format_painter.html" label="格式刷"/>
     </context>
-    <context id="TemplateManagerDialog" title="Managing your Templates">
-       <description>Manage your Templates.</description>
-       <topic href="help/Text/templates_managing.html" label="Managing your Templates"/>
+    <context id="prefsAppearance" title="外观首选项">
+       <description>更改外观、颜色和字体首选项。</description>
+       <topic href="help/Text/prefs_appearance.html" label="外观首选项"/>
     </context>
-    <context id="NewArchimateModelFromTemplateWizardPage" title="Creating a New Model from a Template">
-       <description>Create a new Model based on an existing template.</description>
-       <topic href="help/Text/templates_new_model.html" label="Creating a New Model from a Template"/>
+    <context id="prefsCanvas" title="画布首选项">
+       <description>编辑画布建模工具包首选项。</description>
+       <topic href="help/Text/prefs_canvas.html" label="画布建模工具箱首选项"/>
     </context>
-    <context id="SaveArchimateModelAsTemplateWizardPage" title="Save Model As Template">
-       <description>Provide the Template's name, description and key thumbnail.</description>
-       <topic href="help/Text/templates_new.html" label="Creating a New Template"/>
+    <context id="prefsConnections" title="连接首选项">
+       <description>编辑连接首选项。</description>
+       <topic href="help/Text/prefs_connections.html" label="连接首选项"/>
     </context>
-    <context id="SaveArchimateModelAsTemplateToCollectionWizardPage" title="Save Model As Template">
-       <description>Choose whether to include the template in your collection.</description>
-       <topic href="help/Text/templates_new.html" label="Creating a New Template"/>
+    <context id="prefsDiagram" title="图表首选项">
+       <description>编辑图表首选项。</description>
+       <topic href="help/Text/prefs_diagram.html" label="图像首选项"/>
     </context>
-    <context id="ExportJasperReportsWizardPage1" title="Jasper Reports">
-       <description>Choose the output location, report title and which formats to generate.</description>
-       <topic href="help/Text/reporting-jasper.html" label="Jasper Reports"/>
+    <context id="prefsGeneral" title="常规首选项">
+       <description>编辑常规首选项。</description>
+       <topic href="help/Text/prefs_general.html" label="一般首选项"/>
+    </context>
+    <context id="prefsJasper" title="Jasper 报告首选项">
+       <description>编辑Jasper报告首选项。</description>
+       <topic href="help/Text/prefs_jasper.html" label="Jasper报告首选项"/>
+    </context>
+    <context id="prefsValidator" title="验证器首选项">
+       <description>编辑验证器首选项。</description>
+       <topic href="help/Text/prefs_validator.html" label="验证器首选项"/>
+    </context>
+    <context id="userProperties" title="用户属性">
+       <description>编辑用户属性</description>
+       <topic href="help/Text/properties_user_properties.html" label="用户属性"/>
+       <topic href="help/Text/properties_element.html" label="元素顺序"/>
+    </context>
+    <context id="NewNestedRelationDialog" title="容器元素和嵌套元素关系">
+       <description>添加新的嵌套元素关系。</description>
+       <topic href="help/Text/view_container_nested.html" label="容器元素和嵌套元素关系"/>
+    </context>
+    <context id="NewNestedRelationsDialog" title="容器元素和嵌套元素关系">
+       <description>添加新的嵌套元素关系。</description>
+       <topic href="help/Text/view_container_nested.html" label="容器元素和嵌套元素关系"/>
+    </context>
+    <context id="TemplateManagerDialog" title="管理你的模板">
+       <description>管理你的模板。</description>
+       <topic href="help/Text/templates_managing.html" label="管理你的模版"/>
+    </context>
+    <context id="NewArchimateModelFromTemplateWizardPage" title="从模板创建新模型">
+       <description>基于现有模板创建新模型。</description>
+       <topic href="help/Text/templates_new_model.html" label="从模板创建一个新模型"/>
+    </context>
+    <context id="SaveArchimateModelAsTemplateWizardPage" title="将模型另存为模板">
+       <description>提供模板的名称、描述和关键缩略图。</description>
+       <topic href="help/Text/templates_new.html" label="新建模板"/>
+    </context>
+    <context id="SaveArchimateModelAsTemplateToCollectionWizardPage" title="将模型另存为模板">
+       <description>选择是否将模板包括在收藏中。</description>
+       <topic href="help/Text/templates_new.html" label="新建模板"/>
+    </context>
+    <context id="ExportJasperReportsWizardPage1" title="Jasper 报告">
+       <description>选择输出位置、报告标题以及要生成的格式。</description>
+       <topic href="help/Text/reporting-jasper.html" label="Jasper 报告"/>
     </context>
     <context id="ExportJasperReportsWizardPage2">
-       <description>Choose the report template to use.</description>
-       <topic href="help/Text/reporting-jasper.html" label="Jasper Reports"/>
+       <description>选择要使用的报告模板。</description>
+       <topic href="help/Text/reporting-jasper.html" label="Jasper 报告"/>
     </context>
-    <context id="ImageManagerDialog" title="Select an Image">
-       <description>Select an Image</description>
-       <topic href="help/Text/image_chooser.html" label="Adding Images to Objects"/>
+    <context id="ImageManagerDialog" title="选择一张图片">
+       <description>选择一张图片</description>
+       <topic href="help/Text/image_chooser.html" label="向对象添加图像"/>
     </context>
-    <context id="NewCanvasFromTemplateWizardPage" title="Creating a New Canvas from a Template">
-       <description>Create a new Canvas based on an existing template.</description>
-       <topic href="help/Text/canvas_new_from_template.html" label="Creating a New Canvas from a Template"/>
+    <context id="NewCanvasFromTemplateWizardPage" title="从模板创建新画布">
+       <description>基于现有模板创建新画布。</description>
+       <topic href="help/Text/canvas_new_from_template.html" label="从模板创建一个新画布"/>
     </context>
-    <context id="SaveCanvasAsTemplateWizardPage" title="Save Canvas As Template">
-       <description>Provide the Template&apos;s name, description and key thumbnail.</description>
-       <topic href="help/Text/canvas_save_as_template.htmls" label="Save a Canvas as a Template"/>
+    <context id="SaveCanvasAsTemplateWizardPage" title="将画布另存为模板">
+       <description>提供模板的名称、描述和关键缩略图。</description>
+       <topic href="help/Text/canvas_save_as_template.htmls" label="将画布另存为模板"/>
     </context>
-    <context id="SaveCanvasAsTemplateToCollectionWizardPage" title="Save Canvas As Template">
-       <description>Choose whether to include the template in your collection.</description>
-       <topic href="help/Text/canvas_save_as_template.html" label="Save a Canvas as a Template"/>
+    <context id="SaveCanvasAsTemplateToCollectionWizardPage" title="将画布另存为模板">
+       <description>选择是否将模板包括在收藏中。</description>
+       <topic href="help/Text/canvas_save_as_template.html" label="将画布另存为模板"/>
     </context>
-    <context id="CanvasTemplateManagerDialog" title="Managing your Canvas Templates">
-       <description>Manage your Canvas Templates</description>
-       <topic href="help/Text/canvas_templates_managing.html" label="Managing your Canvas Templates"/>
+    <context id="CanvasTemplateManagerDialog" title="管理画布模板">
+       <description>管理画布模板</description>
+       <topic href="help/Text/canvas_templates_managing.html" label="管理画布模板"/>
     </context>
     <context id="RelationshipsMatrixDialog">
-       <description>View the allowed ArchiMate relationships</description>
-       <topic href="help/Text/relations_rules.html" label="Relationships Matrix"/>
+       <description>查看允许的 ArchiMate 关系</description>
+       <topic href="help/Text/relations_rules.html" label="关系矩阵"/>
     </context>
     <context id="ExportAsImagePage">
-       <description>Export the current View as an image</description>
-       <topic href="help/Text/view_export.html" label="Export View As Image"/>
+       <description>将当前视图导出为图像</description>
+       <topic href="help/Text/view_export.html" label="导出视图为图像"/>
     </context>
     <context id="ExportAsCSVPage">
-       <description>Export the current Model to CSV files</description>
-       <topic href="help/Text/csv.html" label="Export As CSV"/>
+       <description>将当前模型导出为CSV文件</description>
+       <topic href="help/Text/csv.html" label="导出为 CSV"/>
     </context>
     <context id="GenerateViewDialog">
-       <description>Generate a View from Elements</description>
-       <topic href="help/Text/generate_view.html" label="Generate a View from Elements"/>
+       <description>从元素生成视图</description>
+       <topic href="help/Text/generate_view.html" label="从元素生成一个视图"/>
     </context>
     <context id="ExportToXMLPage">
-        <description>Export a model to The Open Group Exchange format</description>
-        <topic label="Exporting and Settings" href="help/Text/exchange-export.html"/>
+        <description>将模型导出为 The Open Group 交换格式</description>
+       <topic label="导出和设置" href="help/Text/exchange-export.html"/>
     </context>
     <context id="ExportToXMLPageMetadata">
-       <description>Adding Metadata to The Open Group XML format</description>
-       <topic href="help/Text/exchange-export_metadata.html" label="Adding Metadata"/>
+       <description>向 The Open Group XML格式添加元数据</description>
+       <topic href="help/Text/exchange-export_metadata.html" label="添加元数据"/>
     </context>
     <context id="ManagePluginsDialog">
-       <description>Manage Plug-ins</description>
-       <topic href="help/Text/plugins.html" label="Managing Plug-ins"/>
+       <description>管理插件</description>
+       <topic href="help/Text/plugins.html" label="管理插件"/>
     </context>
     <context id="ImportModel">
-       <description>Import a Model into the Current Model</description>
-       <topic href="help/Text/import-model.html" label="Import a Model into the Current Model"/>
+       <description>将模型导入当前模型</description>
+       <topic href="help/Text/import-model.html" label="将一个模型导入当前模型"/>
     </context>
     <context id="ProfilesManagerDialog">
-       <description>Manage specializations of concepts</description>
-       <topic href="help/Text/specializations_manager.html" label="Specializations Manager"/>
+       <description>管理概念的特例化</description>
+       <topic href="help/Text/specializations_manager.html" label="专门化管理器"/>
     </context>
     
 </contexts>

@@ -1,197 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?NLS TYPE="org.eclipse.help.toc"?>
-<toc label="Archi User Guide">
+<toc label="Archi 用户指南">
     
- <topic href="help/Text/intro.html" label="Introduction">
+ <topic href="help/Text/intro.html" label="介绍">
  </topic>
- <topic href="help/Text/install.html" label="Installing and Launching Archi">
+ <topic href="help/Text/install.html" label="安装和启动Archi">
  </topic>
-    <topic href="help/Text/archi_working.html" label="Working in Archi">
+    <topic href="help/Text/archi_working.html" label="使用Archi">
     </topic>
-    <topic href="help/Text/new_model.html" label="Creating a New ArchiMate Model">
+    <topic href="help/Text/new_model.html" label="创建新的ArchiMate模型">
     </topic>
-    <topic label="The Model Tree">
-       <topic href="help/Text/model_tree.html" label="Introduction">
+    <topic label="模型树">
+       <topic href="help/Text/model_tree.html" label="介绍">
        </topic>
-       <topic href="help/Text/model_tree_add.html" label="Adding Elements Directly to the Model Tree">
+       <topic href="help/Text/model_tree_add.html" label="直接向模型树中添加元素">
        </topic>
-       <topic href="help/Text/model_tree_folders.html" label="Folders and Organisation">
+       <topic href="help/Text/model_tree_folders.html" label="文件夹和组织">
        </topic>
-       <topic href="help/Text/model_tree_working.html" label="Working in the Model Tree">
+       <topic href="help/Text/model_tree_working.html" label="使用模型树">
        </topic>
-       <topic href="help/Text/model_tree_search.html" label="Searching and Filtering">
+       <topic href="help/Text/model_tree_search.html" label="搜索和过滤">
        </topic>
     </topic>
-    <topic label="Views">
-       <topic href="help/Text/views.html" label="Introduction">
+    <topic label="视图">
+       <topic href="help/Text/views.html" label="介绍">
        </topic>
-       <topic href="help/Text/views_open_create.html" label="Opening and Creating Views">
+       <topic href="help/Text/views_open_create.html" label="打开和创建视图">
        </topic>
-       <topic href="help/Text/views_working.html" label="Working with Views">
+       <topic href="help/Text/views_working.html" label="使用视图">
        </topic>
-       <topic href="help/Text/view_nav.html" label="Navigating a View">
-          <topic href="help/Text/outline.html" label="The Outline Window">
+       <topic href="help/Text/view_nav.html" label="导航视图">
+          <topic href="help/Text/outline.html" label="缩略图窗口">
           </topic>
        </topic>
-       <topic href="help/Text/view_palette.html" label="The Palette">
-          <topic href="help/Text/view_palette_tools.html" label="Selection Tools">
+       <topic href="help/Text/view_palette.html" label="调色板">
+          <topic href="help/Text/view_palette_tools.html" label="选择工具">
           </topic>
-          <topic href="help/Text/view_palette_creation_tools.html" label="Creation Tools">
+          <topic href="help/Text/view_palette_creation_tools.html" label="生成工具">
           </topic>
-          <topic href="help/Text/view_format_painter.html" label="The Format Painter">
-          </topic>
-       </topic>
-       <topic href="help/Text/view_addnew.html" label="Adding New Elements and Relations">
-       </topic>
-       <topic href="help/Text/view_magic_connector.html" label="Adding New Elements and Relations with the Magic Connector">
-       </topic>
-       <topic href="help/Text/view_addexisting.html" label="Adding Elements and Relations from the Model Tree to a View">
-       </topic>
-       <topic href="help/Text/view_group.html" label="Adding a Group">
-       </topic>
-       <topic href="help/Text/view_note.html" label="Adding a Note">
-       </topic>
-       <topic href="help/Text/view_junction.html" label="Adding a Junction">
-       </topic>
-       <topic href="help/Text/view_reference.html" label="Adding a Reference to Another View">
-       </topic>
-       <topic label="Connections">
-          <topic href="help/Text/view_conn_bendpoints.html" label="Bend-points">
-          </topic>
-          <topic href="help/Text/view_conn_properties.html" label="Setting the Properties of a Connection">
-          </topic>
-          <topic href="help/Text/view_conn_router.html" label="Setting the Connection Router Type for a View">
+          <topic href="help/Text/view_format_painter.html" label="格式刷">
           </topic>
        </topic>
-       <topic href="help/Text/view_container_nested.html" label="Container Elements and Nested Element Relationships">
+       <topic href="help/Text/view_addnew.html" label="添加新的元素和关系">
        </topic>
-       <topic href="help/Text/view_z_order.html" label="Setting the Order of Overlapping Elements">
+       <topic href="help/Text/view_magic_connector.html" label="使用魔术连接添加新元素和关系">
        </topic>
-       <topic href="help/Text/view_copy_paste_delete.html" label="Copying, Pasting, Selecting and Deleting Elements">
+       <topic href="help/Text/view_addexisting.html" label="将模型树中的元素和关系添加到视图中">
        </topic>
-       <topic href="help/Text/view_align_grid.html" label="Alignment Tools, Guides and the Grid">
+       <topic href="help/Text/view_group.html" label="添加分组">
        </topic>
-       <topic href="help/Text/view_fullscreen.html" label="Showing a View in Full Screen Mode">
+       <topic href="help/Text/view_note.html" label="添加备注">
        </topic>
-       <topic href="help/Text/view_export.html" label="Exporting the View as an Image">
+       <topic href="help/Text/view_junction.html" label="添加接合">
        </topic>
-    </topic>
-    <topic href="help/Text/viewpoints.html" label="Viewpoints">
-    </topic>
-    <topic href="help/Text/properties_window.html" label="The Properties Window">
-       <topic href="help/Text/properties_model.html" label="Model Properties">
+       <topic href="help/Text/view_reference.html" label="添加对另一个视图的引用">
        </topic>
-       <topic href="help/Text/properties_element.html" label="Element Properties">
+       <topic label="连接">
+          <topic href="help/Text/view_conn_bendpoints.html" label="弯曲点">
+          </topic>
+          <topic href="help/Text/view_conn_properties.html" label="设置连接的属性">
+          </topic>
+          <topic href="help/Text/view_conn_router.html" label="设置视图的连接路由器类型">
+          </topic>
        </topic>
-       <topic href="help/Text/properties_element_appearance.html" label="Element Appearance Properties">
+       <topic href="help/Text/view_container_nested.html" label="容器元素和嵌套元素关系">
        </topic>
-       <topic href="help/Text/properties_relation.html" label="Relationship Properties">
+       <topic href="help/Text/view_z_order.html" label="设置重叠元素的顺序">
        </topic>
-       <topic href="help/Text/properties_relation_appearance.html" label="Relationship Connection Appearance Properties">
+       <topic href="help/Text/view_copy_paste_delete.html" label="复制、粘贴、选择和删除元素">
        </topic>
-       <topic href="help/Text/properties_view.html" label="View Properties">
+       <topic href="help/Text/view_align_grid.html" label="对齐工具、指南和网格">
        </topic>
-       <topic href="help/Text/properties_viewref.html" label="View Reference Properties">
+       <topic href="help/Text/view_fullscreen.html" label="以全屏模式显示视图">
        </topic>
-       <topic href="help/Text/properties_folder.html" label="Folder Properties">
-       </topic>
-       <topic href="help/Text/properties_note.html" label="Note Properties">
-       </topic>
-       <topic href="help/Text/properties_group.html" label="Group Properties">
-       </topic>
-       <topic href="help/Text/properties_user_properties.html" label="User Properties">
+       <topic href="help/Text/view_export.html" label="将视图导出为图片">
        </topic>
     </topic>
-    <topic href="help/Text/navigator.html" label="The Navigator Window">
+    <topic href="help/Text/viewpoints.html" label="视点">
     </topic>
-    <topic href="help/Text/visualiser.html" label="The Visualiser Window">
-    </topic>
-    <topic href="help/Text/hints.html" label="The Hints Window">
-    </topic>
-    <topic href="help/Text/outline.html" label="The Outline Window">
-    </topic>
-    <topic href="help/Text/tools.html" label="Tools">
-       <topic href="help/Text/generate_view.html" label="Generating a View from an Element">
+    <topic href="help/Text/properties_window.html" label="属性窗口">
+       <topic href="help/Text/properties_model.html" label="模型属性">
        </topic>
-       <topic href="help/Text/properties_manager.html" label="Properties Manager">
+       <topic href="help/Text/properties_element.html" label="元素属性">
        </topic>
-       <topic href="help/Text/specializations_manager.html" label="Specializations Manager">
+       <topic href="help/Text/properties_element_appearance.html" label="元素外观属性">
        </topic>
-       <topic href="help/Text/validator.html" label="The Validator">
+       <topic href="help/Text/properties_relation.html" label="关系属性">
        </topic>
-       <topic href="help/Text/preview_report.html" label="Preview HTML Report">
+       <topic href="help/Text/properties_relation_appearance.html" label="关系连接外观属性">
        </topic>
-    </topic>
-    <topic href="help/Text/open_save_print.html" label="Opening, Saving and Printing">
-    </topic>
-    <topic href="help/Text/csv.html" label="Exporting and Importing the Model in CSV Format">
-    </topic>
-    <topic href="help/Text/import-model.html" label="Importing Another Model into the Current Model">
-    </topic>
-    <topic href="help/Text/exchange-intro.html" label="The Open Group&apos;s ArchiMate Exchange Format">
-       <topic href="help/Text/exchange-export.html" label="Exporting and Settings">
+       <topic href="help/Text/properties_view.html" label="视图属性">
        </topic>
-       <topic href="help/Text/exchange-export_metadata.html" label="Adding Metadata">
+       <topic href="help/Text/properties_viewref.html" label="视图引用属性">
        </topic>
-       <topic href="help/Text/exchange-import.html" label="Importing a Model from an Open Exchange Format file">
+       <topic href="help/Text/properties_folder.html" label="文件夹属性">
+       </topic>
+       <topic href="help/Text/properties_note.html" label="备注属性">
+       </topic>
+       <topic href="help/Text/properties_group.html" label="分组属性">
+       </topic>
+       <topic href="help/Text/properties_user_properties.html" label="用户属性">
        </topic>
     </topic>
-    <topic href="help/Text/reporting.html" label="Reporting">
-       <topic href="help/Text/reporting-html.html" label="HTML Reports">
+    <topic href="help/Text/navigator.html" label="导航窗口">
+    </topic>
+    <topic href="help/Text/visualiser.html" label="可视化分析窗口">
+    </topic>
+    <topic href="help/Text/hints.html" label="提示窗口">
+    </topic>
+    <topic href="help/Text/outline.html" label="缩略图窗口">
+    </topic>
+    <topic href="help/Text/tools.html" label="工具">
+       <topic href="help/Text/generate_view.html" label="从元素生成视图">
        </topic>
-       <topic href="help/Text/reporting-jasper.html" label="Jasper Reports">
+       <topic href="help/Text/properties_manager.html" label="属性管理器">
+       </topic>
+       <topic href="help/Text/specializations_manager.html" label="特例化管理器">
+       </topic>
+       <topic href="help/Text/validator.html" label="验证器">
+       </topic>
+       <topic href="help/Text/preview_report.html" label="预览HTML报告">
        </topic>
     </topic>
-    <topic href="help/Text/templates.html" label="Templates">
-       <topic href="help/Text/templates_new.html" label="Creating a New Template">
+    <topic href="help/Text/open_save_print.html" label="打开、保存和打印">
+    </topic>
+    <topic href="help/Text/csv.html" label="以CSV格式导出和导入模型">
+    </topic>
+    <topic href="help/Text/import-model.html" label="将另一个模型导入当前模型">
+    </topic>
+    <topic href="help/Text/exchange-intro.html" label="The Open Group 的ArchiMate交换格式">
+       <topic href="help/Text/exchange-export.html" label="导出和设置">
        </topic>
-       <topic href="help/Text/templates_new_model.html" label="Creating a New Model from a Template">
+       <topic href="help/Text/exchange-export_metadata.html" label="添加元数据">
        </topic>
-       <topic href="help/Text/templates_managing.html" label="Managing your Templates">
+       <topic href="help/Text/exchange-import.html" label="从打开的Exchange格式文件导入模型">
        </topic>
     </topic>
-    <topic href="help/Text/relations_rules.html" label="Relationships">
-    </topic>
-    <topic href="help/Text/sketch_view.html" label="The Sketch View">
-    </topic>
-    <topic href="help/Text/canvas.html" label="The Canvas Modelling Toolkit">
-       <topic href="help/Text/canvas_getting_started.html" label="Getting Started">
+    <topic href="help/Text/reporting.html" label="报告">
+       <topic href="help/Text/reporting-html.html" label="HTML 报告">
        </topic>
-       <topic href="help/Text/canvas_details.html" label="Getting Into the Details">
-       </topic>
-       <topic href="help/Text/properties_canvas_block.html" label="Block Properties">
-       </topic>
-       <topic href="help/Text/properties_canvas_sticky.html" label="Sticky Properties">
-       </topic>
-       <topic href="help/Text/properties_canvas_image.html" label="Image Properties">
-       </topic>
-       <topic href="help/Text/properties_canvas_connection.html" label="Connection Properties">
-       </topic>
-       <topic href="help/Text/image_chooser.html" label="Adding Images to Objects">
-       </topic>
-       <topic href="help/Text/canvas_save_as_template.html" label="Saving a Canvas as a Template">
-       </topic>
-       <topic href="help/Text/canvas_new_from_template.html" label="Creating a New Canvas from a Template">
-       </topic>
-       <topic href="help/Text/canvas_templates_managing.html" label="Managing Canvas Templates">
+       <topic href="help/Text/reporting-jasper.html" label="Jasper 报告">
        </topic>
     </topic>
-    <topic href="help/Text/preferences.html" label="Preferences">
-       <topic href="help/Text/prefs_appearance.html" label="Appearance">
+    <topic href="help/Text/templates.html" label="模板">
+       <topic href="help/Text/templates_new.html" label="创建新模板">
        </topic>
-       <topic href="help/Text/prefs_canvas.html" label="Canvas Toolkit">
+       <topic href="help/Text/templates_new_model.html" label="从模板创建新模型">
        </topic>
-       <topic href="help/Text/prefs_connections.html" label="Connections">
-       </topic>
-       <topic href="help/Text/prefs_diagram.html" label="Diagram">
-       </topic>
-       <topic href="help/Text/prefs_general.html" label="General">
-       </topic>
-       <topic href="help/Text/prefs_jasper.html" label="Jasper Reports">
-       </topic>
-       <topic href="help/Text/prefs_system.html" label="System">
+       <topic href="help/Text/templates_managing.html" label="管理您的模板">
        </topic>
     </topic>
-    <topic href="help/Text/plugins.html" label="Plug-ins">
+    <topic href="help/Text/relations_rules.html" label="关系">
+    </topic>
+    <topic href="help/Text/sketch_view.html" label="草稿视图">
+    </topic>
+    <topic href="help/Text/canvas.html" label="画布建模工具包">
+       <topic href="help/Text/canvas_getting_started.html" label="开始">
+       </topic>
+       <topic href="help/Text/canvas_details.html" label="深入细节">
+       </topic>
+       <topic href="help/Text/properties_canvas_block.html" label="块属性">
+       </topic>
+       <topic href="help/Text/properties_canvas_sticky.html" label="便利贴属性">
+       </topic>
+       <topic href="help/Text/properties_canvas_image.html" label="图片属性">
+       </topic>
+       <topic href="help/Text/properties_canvas_connection.html" label="连接属性">
+       </topic>
+       <topic href="help/Text/image_chooser.html" label="向对象添加图片">
+       </topic>
+       <topic href="help/Text/canvas_save_as_template.html" label="将画布保存为模板">
+       </topic>
+       <topic href="help/Text/canvas_new_from_template.html" label="从模板创建新画布">
+       </topic>
+       <topic href="help/Text/canvas_templates_managing.html" label="管理画布模板">
+       </topic>
+    </topic>
+    <topic href="help/Text/preferences.html" label="首选项">
+       <topic href="help/Text/prefs_appearance.html" label="外观">
+       </topic>
+       <topic href="help/Text/prefs_canvas.html" label="画布工具包">
+       </topic>
+       <topic href="help/Text/prefs_connections.html" label="连接">
+       </topic>
+       <topic href="help/Text/prefs_diagram.html" label="图形">
+       </topic>
+       <topic href="help/Text/prefs_general.html" label="常规">
+       </topic>
+       <topic href="help/Text/prefs_help.html" label="帮助">
+       </topic>
+       <topic href="help/Text/prefs_jasper.html" label="Jasper 报告">
+       </topic>
+    </topic>
+    <topic href="help/Text/plugins.html" label="插件">
     </topic>
 </toc>
