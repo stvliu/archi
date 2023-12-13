@@ -139,7 +139,7 @@
     <topic href="help/Text/reporting.html" label="报告">
        <topic href="help/Text/reporting-html.html" label="HTML 报告">
        </topic>
-       <topic href="help/Text/reporting-jasper.html" label="Jasper 报告">
+       <topic href="help/Text/reporting-jasper.html" label="Jasper报告">
        </topic>
     </topic>
     <topic href="help/Text/templates.html" label="模板">
@@ -189,7 +189,7 @@
        </topic>
        <topic href="help/Text/prefs_help.html" label="帮助">
        </topic>
-       <topic href="help/Text/prefs_jasper.html" label="Jasper 报告">
+       <topic href="help/Text/prefs_jasper.html" label="Jasper报告">
        </topic>
     </topic>
     <topic href="help/Text/plugins.html" label="插件">

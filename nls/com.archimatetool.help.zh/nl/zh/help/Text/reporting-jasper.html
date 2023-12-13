@@ -4,48 +4,48 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Jasper Reports</title>
+<title>Jasper报告</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h1 class="pagebreak">Jasper Reports</h1>
+ <h1 class="pagebreak">Jasper报告</h1>
     
     <br/>
     
-    <p><a href="https://www.jaspersoft.com/jasperreports" target="_blank">Jasper Reports</a> is the world's most popular Java reporting engine. Combine data sources and produce pixel-perfect documents that can be viewed, printed, or exported into a variety of document formats with this powerful reporting tool. Archi can export models in various formats using Jasper Reports Templates.</p>
+    <p><a href="https://www.jaspersoft.com/jasperreports" target="_blank">Jasper Reports</a> 是世界上最受欢迎的 Java报告引擎。使用这个强大的报告工具，结合数据源并生成像素完美的文档，可以查看、打印或导出为各种文档格式。Archi可以使用Jasper报告模板以各种格式导出模型。</p>
     
-    <p>This option is available from the "Report-&gt;Jasper..." menu item from the main "File" menu. Once a model is selected in the Model Tree or in a View this menu item is enabled. Provide the details in the following wizard page:</p>
+    <p>此选项可从主“文件”菜单的“报告->Jasper...”菜单项中获得。在模型树或视图中选择模型后，此菜单项将启用。在以下向导页面中提供详细信息：</p>
     
     <img src="../Images/jasper_wizard1.png"/>
-    <p class="caption">Jasper Reports wizard page 1</p>
+    <p class="caption">Jasper报告向导页面 1</p>
       
     <br/>
     
-    <p>And then in the next wizard page, choose the report template that you prefer, and also the locale if you have provided localised language strings for the report template:</p>
+    <p>然后在下一个向导页面中，选择您喜欢的报告模板，如果您为报告模板提供了本地化的语言字符串，还可以选择语言环境：</p>
     
     <img src="../Images/jasper_wizard2.png"/>
-    <p class="caption">Jasper Reports wizard page 2</p>
+    <p class="caption">Jasper报告向导页面 2</p>
     
     <br/>
     
-    <h2>Customisable Report</h2>
+    <h2>自定义报告</h2>
     
-    <p>If you choose the "Customizable Report" template when exporting, then you can set various properties for the report's layout if you base your model on the "Customizable Report" model template when creating a new model. See <a href="templates_new_model.html">"Creating a New Model from a Template"</a> for more details.</p>
+    <p>如果您在导出时选择“可自定义报告”模板，那么在创建新模型时，如果您的模型基于“可自定义报告”模型模板，则可以为报告的布局设置各种属性。有关详细信息，请参阅<a href="templates_new_model.html">“从模板创建新模型”</a>。</p>
     
-    <p>By setting certain properties in the model that is based on the "Customizable Report" model template you can fine tune the output. When you create a new model based on the "Customizable Report" model template there is a View called "_README_" that lists the properties.</p>
+    <p>通过在基于“可定制报告”模型模板的模型中设置某些属性，您可以微调输出。当您基于“可自定义报告”模型模板创建新模型时，会有一个名为“_README_”的视图列出属性。</p>
     
     <img src="../Images/custom_report_properties.png"/>
-    <p class="caption">Custom report properties</p>
+    <p class="caption">自定义报告属性</p>
     
     <br/>
 
-    <h2>User Report Templates</h2>
+    <h2>用户报告模板</h2>
     
-    <p>If you wish to create your own custom Jasper Report templates you can place these in the folder named "jasper-reports" in the application preference folder. You can change the location of this folder in <a href="prefs_jasper.html">Preferences</a>. Alternatively, you can manually select a template file ("main.jrxml") from the "Choose..." combo option.</p>
+    <p>如果您希望创建自己的自定义Jasper报告模板，您可以将它们放在应用程序首选项文件夹中名为“jasper-reports”的文件夹中。您可以在 <a href="prefs_jasper.html">首选项</a> 中更改此文件夹的位置。或者，您可以从“选择...”组合选项中手动选择模板文件（“main.jrxml”）。</p>
     
-    <p>An example folder structure for a custom report:</p>
+    <p>自定义报告的示例文件夹结构：</p>
 <pre>
 C:\Users\Bagpuss\Application Data\Archi\jasper-reports
                                                  |------My Custom Report
@@ -53,16 +53,15 @@ C:\Users\Bagpuss\Application Data\Archi\jasper-reports
                                                                  |------style.jrxt
                                                                  |------other files...
 </pre>
-    <p>For more information on creating custom Jasper Reports please refer to the developer section of the Archi website.</p>
+  <p>有关创建自定义Jasper报告的更多信息，请参阅Archi网站的开发人员部分。</p>
 
-    <br/>
-    <h2>Output</h2>
+     <br/>
+     <h2>输出</h2>
 
-    <p>The following is an example of a PDF format report:</p>
+     <p>以下是 PDF 格式报告的示例：</p>
     
-    <img src="../Images/jasper_pdf.png"/>
-    <p class="caption">Part of a Generated Jasper Report in PDF format</p>
-    
+     <img src="../Images/jasper_pdf.png"/>
+     <p class="caption">生成的 PDF 格式Jasper报告的一部分</p>    
     <p>&nbsp;</p>
 
 </body>

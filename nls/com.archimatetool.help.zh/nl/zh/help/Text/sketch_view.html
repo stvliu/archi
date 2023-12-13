@@ -4,49 +4,48 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>The Sketch View</title>
+<title>草图视图</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h1 class="pagebreak">The Sketch View</h1>
+ 	<h1 class="pagebreak">草图视图</h1>
     
-    <p>The Sketch View is an experimental feature of Archi. The idea behind the Sketch View is inspired by the ArchiMate specification document defining an "Introductory viewpoint":</p>
+    <p>草图视图是Archi的一个实验性功能。草图视图的设计灵感来源于ArchiMate规范文档中定义的“介绍性视点”:</p>
     
     <blockquote>
-      <p>"The Introductory viewpoint forms a subset of the full ArchiMate language using a simplified notation. It is typically used at the start of a design trajectory, when not everything needs to be detailed yet, or to explain the essence of an architecture model to non-architects that require a simpler notation. Another use of this basic, less formal viewpoint is that it tries to avoid the impression that the architectural design is already fixed, an idea that may easily arise when using a more formal, highly structured or detailed visualization. We use a simplified notation for the concepts, and for the relations. All relations except "triggering" and "realization" are denoted by simple lines; "realization" has an arrow in the direction of the realized service; "triggering" is also represented by an arrow." - <em>ArchiMate Specification 1.0 p.72</em></p>
+      <p>它通常用于设计轨迹的开始，当不需要全部细节时使用,或用于向不需要复杂表示法的非架构师解释架构模型的本质。这种基本的、不太正式的视点的另一用途是，它试图避免产生架构设计已经固定的印象，而使用更正式、高度结构化或详细的可视化时，这种想法可能很容易出现。我们对概念和关系使用简化的表示法。除“触发”和“实现”之外的所有关系都用简单的线表示；“实现”的方向是实现的服务；“触发”也用一个箭头表示。” - <em>ArchiMate 规范 1.0 p.72</em></p>
     </blockquote>
     
-    <p>This is in some ways similar to Marc Lankhorst's description of modelling processes using conversation techniques whose aim is to capture the essence of the model:</p>
+    <p>在某些方面，这与Marc Lankhorst关于使用对话技术对建模过程进行建模的描述类似，其目的是捕获模型的本质：</p>
     
     <blockquote>
-      <p>"In architecture development, we find a number of common conversation techniques where it concerns the communication of architectural models:<br/>
+      <p>“在架构开发中，我们发现一些常见的对话技术，其中涉及到架构模型的交流：<br/>
         <br/>
-        - <strong>Brown-paper session:</strong> Structured brainstorm-like group session (up to about 15 people) in which items (keywords or short phrases) are elicited from the individuals in the group in answer to a question such as: 'What are the key functionality issues in our current IT architecture?' Typically, every individual item is written on a small adhesive note ('Post-It'). The items are then collected on a sheet of paper (traditionally of the cheap brown kind) and, by means of an open and creative group process, structured and categorised. This may involve adding, deleting, merging, or changing items. Usually, a mediator or facilitator is involved." - <em>Marc Lankhorst et al. "Enterprise Architecture at Work", Second Edition, p.82</em></p>
+        - <strong>棕色纸会议</strong>：类似于头脑风暴的结构化小组会议（最多约 15 人），其中从小组中的个人引出项目（关键字或短语），以回答诸如：“我们当前的IT架构中的关键功能问题是什么？”这样的问题。通常，每个单独的项目都写在一个小的粘性便条（“便利贴”）上。然后将这些物品收集在一张纸上（传统上是廉价的棕色纸），并通过开放和创造性的小组流程进行结构化和分类。这可能涉及添加、删除、合并或更改项目。通常会涉及调解人或促进者。” - <em>Marc Lankhorst等人“Enterprise Architecture at Work”，第二版，第 82 页</em></p>
     </blockquote>
     
-    <p>In Archi it is possible to create a "Sketch View". To add a new Sketch View to the model, right-click on the "Views" folder in the Model Tree and select "New-&gt;Sketch View" from the context menu:</p>
+    <p>在Archi中可以创建“草图视图”。要为模型添加新的草图视图，请右键单击模型树中的“视图”文件夹，然后从上下文菜单中选择“新建->草图视图”：</p>
     
     <img src="../Images/new-sketch.png"/>
-    <p class="caption">Adding a new "Sketch" View</p>
+    <p class="caption">添加一个新的“草图”视图</p>
     
-    <p>Once the Sketch View has been added to the model it can be opened from the tree by double-clicking on it. Any number of Views can be added to a model and be open at the same time. Views are arranged in tabs in the main area of the application window.</p>
+    <p>将草图视图添加到模型后，可以通过双击从树中打开它。可以将任意数量的视图添加到模型并同时打开。视图排列在应用程序窗口主区域的选项卡中。</p>
     
     <img src="../Images/sketch1.png"/>
-    <p class="caption">An example Sketch View</p>
+    <p class="caption">草图视图示例</p>
     
-    <p>You can add new "Stickies" (Post-Its) to the View, an "Actor" figure and three types of connection. There are no rules as to what the relationships or stickies mean. All objects can be edited in the Properties Window. You are free to capture a sketch of your model and then later convert it into a fully constrained ArchiMate model and View.</p>
+    <p>您可以在视图中添加新的便利贴、一个施动者人物和三种类型的连接。没有关于关系或便签的含义的规则。所有对象都可以在属性窗口中进行编辑。您可以自由捕捉模型的草图，然后将其转换为完全受约束的ArchiMate模型和视图。</p>
     
-    <p>Double-clicking a Sticky opens the <a href="properties_window.html">Properties Window</a>, clicking on a selected Sticky allows you to directly edit the Sticky's text.</p>
+    <p>双击便利贴打开<a href="properties_window.html">属性窗口</a>，点击选中的便利贴可以直接编辑便利贴的文本。</p>
     
-    <p>It is possible to set the default background image in  <a href="prefs_diagram.html">Preferences</a> if you wish, and to set the background for each Sketch view in the "Appearance" tab of the <a href="properties_window.html">Properties Window</a>:</p>
+	<p>如果您愿意，可以在 <a href="prefs_diagram.html">首选项</a> 中设置默认背景图片，并在 <a href="properties_window.html">属性窗口</a>的外观页签的背景进行设置：</p>
     
-    <img src="../Images/properties_sketch_appearance.png"/>
-    <p class="caption">Sketch View background options</p>
+     <img src="../Images/properties_sketch_appearance.png"/>
+     <p class="caption">草图视图背景选项</p>
     
-    <p>Note - the Sketch View will likely be deprecated in future versions. The aim is to combine the Sketch, Canvas and ArchiMate views into one view type.</p>
-    
+     <p>注意 - 草图视图可能会在未来的版本中被弃用。目的是将草图、画布和ArchiMate视图合并为一种视图类型。</p>   
     <p>&nbsp;</p>
 
 </body>

@@ -4,48 +4,48 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Specializations Manager</title>
+<title>特例化管理器</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h1 class="pagebreak">Specializations Manager</h1>
+ 	<h1 class="pagebreak">特例化管理器</h1>
     
-    <p>The Specializations Manager allows you to create, modify and delete specializations of ArchiMate concepts.</p>
+    <p>特例化管理器允许您创建、修改和删除ArchiMate概念的特例化。</p>
 
-    <h2>Background</h2>
-    <p>The ArchiMate specification describes the use of specialization of elements and relationships:</p>
+    <h2>背景</h2>
+    <p>ArchiMate 规范描述了元素和关系的特殊化的使用：</p>
 
     <blockquote>
-        <p>"Specialization is a simple and powerful way to define new elements or relationships based on the existing ones. Specialized elements inherit the properties of their generalized elements... Also, new graphical notation could be introduced for a specialized concept, but preferably with a resemblance to the notation of the generalized concept; e.g., by adding an icon or other graphical marker, or changing the existing icon. A specialized element or relationship strongly resembles a stereotype as it is used in UML. The stereotype notation with angled brackets may also be used to denote a specialized concept."</p>
+        <p>“特例化是一种基于现有元素或关系定义新元素或关系的简单而强大的方法。特例化元素继承其广义元素的属性......此外，可以为特例化概念引入新的图形符号，但最好与通用概念的表示法相似；例如，通过添加图标或其他图形标记，或更改现有图标。特例化的元素或关系非常类似于 UML 中使用的构造型。带有尖括号的构造型表示法也可以用来表示一个特例化的概念。”</p>
     </blockquote>
   
-    <p>For more information see <a href="https://pubs.opengroup.org/architecture/archimate32-doc/#_Toc112155065">Language Customization Mechanisms</a>.</p>
+    <p>有关详细信息，请参阅<a href="https://pubs.opengroup.org/architecture/archimate31-doc/chap15.html">语言自定义机制</a>。</p>
 
     <br/>
 
-    <h2>Using the Specializations Manager</h2>
+    <h2>使用特例化管理器</h2>
 
-    <p>The Specializations Manager is available from the main "Tools" menu and by clicking the "..." button to the right of an object's Specialization in the <a href="properties_window.html">Properties Window</a>.</p>
+    <p>特例化管理器可从主“工具”菜单获得，并通过单击<a href="properties_window.html">属性窗口</a>中对象特例化右侧的“...”按钮.</p>
     
     <img src="../Images/specialization_manager.png"/>
-    <p class="caption">The Specializations Manager</p>
+    <p class="caption">特例化管理器</p>
 
     <br/>
     
-    <h3>Creating a new Specialization</h3>
-    <p>To create a new specialization, click the "New" button or double-click in the table. Provide a name and select the concept type that the specialization will be restricted to. Note that you cannot have more than one specialization with the same name and concept type. If the specialization is used in a model, the number of instances is displayed in the "Instances" column.</p>
+    <h3>创建新的特例化</h3>
+    <p>要创建新的特例化，请单击“新建”按钮或在表格中双击。提供名称并选择特例化将被限制的概念类型。请注意，您不能拥有多个具有相同名称和概念类型的特例化。如果在模型中使用了特化，则实例的数量会显示在“实例”列中。</p>
 
-    <h3>Deleting a Specialization</h3>
-    <p>To delete one or more specializations, select them in the table and click the "Delete" button. Any concepts that reference the deleted specialization will no longer reference it.</p>
+    <h3>删除特例化</h3>
+    <p>要删除一个或多个特例化，请在表格中选择它们并按“删除”按钮。任何引用已删除特例化的概念都将不再引用它。</p>
 
-    <h3>Adding or removing an image for a Specialization</h3>
-    <p>Element specializations (except Junction) can also be associated with an image which will be displayed when the specialization Element is used in a View. Select an image for the object or clear the image from the "Image..." button or by double-clicking in the image preview box. See "<a href="image_chooser.html">Adding Images to Objects</a>" for more details.</p>
+    <h3>为特例化添加或删除图像</h3>
+    <p>元素特例化（接合除外）也可以与将在视图中使用特例化元素时显示的图像相关联。为对象选择图像或从“图像...”按钮或双击图像预览框清除图像。有关详细信息，请参阅“<a href="image_chooser.html">向对象添加图像</a>”。</p>
 
-    <h3>Applying a Specialization to an ArchiMate concept</h3>
-    <p>A Specialization can be applied to a concept by selecting it in its <a href="properties_element.html">Properties Window</a>.</p>
-
+    <h3>将特例化应用于ArchiMate概念</h3>
+    <p>可以通过在其<a href="properties_element.html">属性窗口</a>中选择一个概念来将其应用到一个概念。</p>
+    
     <p>&nbsp;</p>
 
 </body>

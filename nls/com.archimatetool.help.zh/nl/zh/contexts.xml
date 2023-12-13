@@ -108,7 +108,7 @@
        <description>编辑常规首选项。</description>
        <topic href="help/Text/prefs_general.html" label="一般首选项"/>
     </context>
-    <context id="prefsJasper" title="Jasper 报告首选项">
+    <context id="prefsJasper" title="Jasper报告首选项">
        <description>编辑Jasper报告首选项。</description>
        <topic href="help/Text/prefs_jasper.html" label="Jasper报告首选项"/>
     </context>
@@ -145,13 +145,13 @@
        <description>选择是否将模板包括在收藏中。</description>
        <topic href="help/Text/templates_new.html" label="新建模板"/>
     </context>
-    <context id="ExportJasperReportsWizardPage1" title="Jasper 报告">
+    <context id="ExportJasperReportsWizardPage1" title="Jasper报告">
        <description>选择输出位置、报告标题以及要生成的格式。</description>
-       <topic href="help/Text/reporting-jasper.html" label="Jasper 报告"/>
+       <topic href="help/Text/reporting-jasper.html" label="Jasper报告"/>
     </context>
     <context id="ExportJasperReportsWizardPage2">
        <description>选择要使用的报告模板。</description>
-       <topic href="help/Text/reporting-jasper.html" label="Jasper 报告"/>
+       <topic href="help/Text/reporting-jasper.html" label="Jasper报告"/>
     </context>
     <context id="ImageManagerDialog" title="选择一张图片">
        <description>选择一张图片</description>
