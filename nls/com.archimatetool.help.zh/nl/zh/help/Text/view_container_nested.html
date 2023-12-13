@@ -4,72 +4,72 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Container Elements and Nested Element Relationships</title>
+<title>容器元素和嵌套元素关系</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h2>Container Elements and Nested Element Relationships</h2>
+	 <h2>容器元素和嵌套元素关系</h2>
     
-    <p>Each graphical element (except for notes and junctions) can act as a container element for other elements. Dragging and dropping an element inside of another element means that it becomes a child of the parent element. This is useful to represent containment type relationships such as Composition, Aggregation, and Association or for convenient grouping.</p>
+    <p>每个图形元素（注释和连接点除外）都可以充当其他元素的容器元素。将一个元素拖放到另一个元素中意味着它成为父元素的子元素。这对于表示包含类型关系（例如组合、聚合和关联）或方便分组很有用。</p>
     
-    <p>In the following screenshot the elements "Register", "Accept", "Valuate" and "Pay" are child elements of the parent "Handle Claim Process" element:</p>
+    <p>在以下屏幕截图中，元素“注册 Register”、“接受 Accept”、“评估 Valuate”和“支付 Pay”是父“处理索赔流程 Handle Claim Process”元素的子元素：</p>
     
     <img src="../Images/container1.png"/>
-    <p class="caption">Child elements contained by a parent element</p>
+    <p class="caption">父元素包含的子元素</p>
     
     <br/>
     
-    <p>While dragging elements into or over other elements a visual cue is provided to indicate that the dragged element will be moved into the parent (container) element. This is a blue highlight around the target element as the element is dragged over it:</p>
+    <p>在将元素拖入或覆盖其他元素时，会提供视觉提示以指示被拖动的元素将被移动到父（容器）元素中。当元素被拖动到目标元素上时，这是一个蓝色突出显示：</p>
     
     <img src="../Images/container2.png"/>
-    <p class="caption">A Child Element being Dragged into a Container Element. The Container highlighted in blue</p>
+    <p class="caption">被拖入容器元素的子元素。以蓝色突出显示的容器</p>
     
     <br/>
     
-    <h2>Creating, Showing and Hiding Relationships between Nested Parent/Child Elements</h2>
+    <h2>创建、显示和隐藏嵌套父/子元素之间的关系</h2>
     
-    <p>The <a href="http://www.opengroup.org/archimate/doc/ts_archimate/">ArchiMate specification</a> states that some relationships may also be expressed by nesting the model elements. That is to say, an explicit connection need not be drawn between the parent and child elements but that it may be represented as a container nesting of elements.</p>
+    <p><a href="http://www.opengroup.org/archimate/doc/ts_archimate/">ArchiMate 规范</a> 声明某些关系也可以通过嵌套模型元素来表达。也就是说，父子元素之间不需要绘制显式连接，而是可以表示为元素的容器嵌套。</p>
     
-    <p>Archi supports this convention with <strong>Automatic Relationship Management</strong> (ARM). This system ensures that relationships are automatically created and hidden between qualifying parent/child elements. The system can be configured to suit the user's needs. See <a href="prefs_connections.html">Preferences</a> to configure the ARM.</p>
+    <p>Archi 通过<strong>自动关系管理</strong> (ARM) 支持此约定。该系统确保在合格的父/子元素之间自动创建和隐藏关系。系统可以根据用户的需要进行配置。请参阅<a href="prefs_connections.html">首选项</a>来配置 ARM。</p>
     
-    <p>The best way to explain the <strong>Automatic Relationship Management</strong> system (ARM) is by an example.</p>
+    <p>解释<strong>自动关系管理</strong>系统 (ARM) 的最佳方式是举例。</p>
     
-    <h3>Example - Nested sub-processes in a Composite relationship</h3>
+    <h3>示例 - 复合关系中的嵌套子流程</h3>
     
-    <p>Suppose the user has a Business Process element named "Handle Claim Process" that will act as a container element ("parent") for four sub-processes, "Register", "Accept", "Valuate" and "Pay". The relationship between the parent process and the sub-processes would normally be expressed as four Composition relationships. These can be drawn conventionally using connecting lines as follows:</p>
+    <p>假设用户有一个名为“处理索赔流程”的业务流程元素，它将充当四个子流程“注册”、“接受”、“评估”和“支付”的容器元素（“父”） .父流程和子流程之间的关系通常表示为四种组合关系。这些可以使用以下连接线常规绘制：</p>
     
     <img src="../Images/container3.png"/>
-    <p class="caption">Composition relationship between parent and child processes</p>
+    <p class="caption">父子流程的组成关系</p>
     
-    <p>However, this is visually not as clear as if the sub-processes were placed inside of the container parent process.</p>
+    <p>但是，这在视觉上并不像子进程被放置在容器父流程内那样清晰。</p>
     
-    <p>We can solve this problem by enabling the ARM system in <a href="prefs_connections.html">Preferences</a>. This ensures that when the sub-processes are placed in the parent element the connections are hidden in the View, but are still present in the actual semantic model. Dragging the child elements in and out of the parent element hides and shows the explicit relationships. The hidden connections are "implicit" connections.</p>
+    <p>我们可以通过在<a href="prefs_connections.html">Preferences</a>中启用ARM系统来解决这个问题。这确保了当子流程被放置在父元素中时，连接隐藏在视图中，但仍然存在于实际语义模型中。将子元素拖入和拖出父元素会隐藏并显示显式关系。隐藏的连接是“隐式”连接。</p>
     
     <img src="../Images/container1.png"/>
-    <p class="caption">The Connections now hidden from the View</p>
+    <p class="caption">连接现在从视图中隐藏</p>
     
-    <h3>Adding new elements to a parent element</h3>
+	<h3>向父元素添加新元素</h3>
     
-    <p>Adding new elements to a parent element in a View from the Palette or dragging and dropping from the Model Tree results in a dialog box asking if a new relationship should be created between the parent and child elements:</p>
+    <p>从调色板向视图中的父元素添加新元素或从模型树拖放会导致对话框询问是否应在父元素和子元素之间创建新关系：</p>
     
     <img src="../Images/container6.png"/>
-    <p class="caption">Dialog to create a new nested relationship</p>
+    <p class="caption">对话框创建新的嵌套关系</p>
     
-    <p>Note that the dialog will only display valid relationships between the parent and child elements, and only those that are specified in <a href="prefs_connections.html">Preferences</a>. Valid relations between the child and parent elements can also be selected. These are shown as "(reverse)".</p>
+    <p>请注意，对话框将仅显示父元素和子元素之间的有效关系，并且仅显示在 <a href="prefs_connections.html">首选项</a> 中指定的关系。也可以选择子元素和父元素之间的有效关系。这些显示为“（反向）”。</p>
     
-    <p>If you do not wish to create a new relationship, select "None".</p>
+    <p>如果您不想创建新关系，请选择“无”。</p>
     
-    <h3>Moving existing elements to a parent element</h3>
+    <h3>将现有元素移动到父元素</h3>
     
-    <p>If more than one element is moved (drag and drop operation) to a parent element in a View or is dragged and dropped from the Model Tree onto a parent element, and there are no existing preferred relationships between the parent and the child elements then a dialog box is displayed offering to create new relationships between the parent element and the child elements. You can choose a different type of relationship for each child element:</p>
+    <p>如果多个元素被移动（拖放操作）到视图中的父元素或从模型树拖放到父元素上，并且父子之间不存在现有的首选关系元素，然后显示一个对话框，提供在父元素和子元素之间创建新关系。您可以为每个子元素选择不同类型的关系：</p>
     
     <img src="../Images/container7.png"/>
-    <p class="caption">Dialog for creating more than one relationship</p>
+    <p class="caption">用于创建多个关系的对话框</p>
     
-    <p>If you do not wish to create a new relationship for an element, select "(none)" from the drop-down combo box. To select the same type of relationship in the drop-down combo-box, hold down the Ctrl / Command key and select.</p>
-        
+    <p>如果您不想为元素创建新关系，请从下拉组合框中选择“（无）”。要在下拉组合框中选择相同类型的关系，请按住 Ctrl / Command 键并选择。</p>        
+    
     <p>&nbsp;</p>
 
 </body>

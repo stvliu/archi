@@ -4,64 +4,64 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Adding New Elements and Relations to the View</title>
+<title>从调色板向视图添加新元素</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-	<h2>Adding New Elements to the View from the Palette</h2>
+	<h2>从调色板向视图添加新元素</h2>
 	
-	<p>To create and add new elements to the View select the required element on the <a href="view_palette_creation_tools.html">Palette</a> and either click or drag the new figure onto the canvas area. Once the figure has been added to the canvas you can resize and re-position it by the usual drag actions.</p>
-
-	<h3>Adding Elements to the View Automatically Adds them to the Model Tree</h3>
+	<p>要创建新元素并将其添加到视图，请在 <a href="view_palette_creation_tools.html">调色板</a> 上选择所需元素，然后单击或将新图形拖到画布区域。将图形添加到画布后，您可以通过通常的拖动操作调整其大小和重新定位它。</p>
 	
-	<p>It is important to understand that adding elements (and relationships) to a View from the palette automatically adds those elements to the Model Tree as well. For example, dragging a "Business Actor" element onto the canvas creates both a figure on the View called "Business Actor" and also a node on the <a href="model_tree.html">Model Tree</a> with the same name.</p>
-
-	<p>Furthermore, if you delete an element in a View the corresponding element in the Model Tree is <em>not</em> deleted. This is because the element may be referenced in another View in the model. To delete the element completely you have to delete it in the Model Tree or choose the right-click menu item, "Delete from Model".</p>
+	<h3>向视图中添加元素会自动将它们添加到模型树中</h3>
 	
-	<p>You can edit the element's name directly by clicking the text area on a figure. Double-clicking on the figure opens the <a href="properties_window.html">Properties Window</a> where you may edit the properties of the selected element.</p>
-
-	<br/>
-
-	<h2>Editing the View's Elements' Properties</h2>
+	<p>了解从调色板向视图添加元素（和关系）会自动将这些元素添加到模型树中，这一点很重要。例如，将“业务施动者”元素拖到画布上会在视图上创建一个名为“业务施动者”的图形，并在 <a href="model_tree.html">模型树</a> 上创建一个具有相同属性的节点名字。</p>
 	
-	<p>The properties for a selected element in a View can be edited in the <a href="properties_window.html">Properties Window</a>. To open the Properties Window, either double-click the figure or select the figure and open the window from the toolbar or main menu. Each element in the View has different properties that can be set or viewed in the Properties Window. For more information see the section, <a href="properties_window.html">The Properties Window</a>.</p>
-
-	<p>Double-clicking an Element in a View opens the <a href="properties_note.html">Properties Window</a>, single-clicking on an already selected Element's text field allows you to directly edit the Element's text.</p>
-
-	<br/>
-
-	<h2>Adding New Relationships (Connections) to the View from the Palette</h2>
-	<p>To add new relationships (connections) to the View select the required connection tool on the <a href="view_palette_creation_tools.html">Palette</a> and drag from one element on the View to another on the same View.</p>
-
-	<p>As with adding elements from the palette, adding a relationship to a View automatically adds it to the Model Tree as well, in the "Relations" folder.</p>
+	<p>此外，如果您删除视图中的元素，则模型树中的相应元素<em>不会</em>删除。这是因为该元素可能在模型中的另一个视图中被引用。要完全删除元素，您必须在模型树中将其删除或选择右键菜单项“从模型中删除”。</p>
 	
-	<p>When adding a new connection in a View, if the same type of model relationship already exists between the source and target elements, a dialog box will appear giving you the option to reference that model relationship from the connection, or create a new connection <i>and</i> model relationship:</p>
-
-	<img src="../Images/connection_reuse_dialog.png" alt="Reuse Dialog"/>
-	<p class="caption">A dialog providing the option of re-using a model relationship.</p>
-
-	<br/>
-
-	<p class="boxout"><strong><img src="../Images/tip.png" class="tipImage"/>Relationships, Rules and Regulations.</strong><br/>ArchiMate elements can connect to other elements by a given set of relationships (connections). Some relationships are allowed, others are not. If a relationship is not allowed the cursor will show as a "Not Allowed" symbol, a circle with a diagonal line. If a relationship is allowed, it will show as a "plug" symbol.</p>
-
-	<br/>
-
-	<h2>Information about Connections</h2>
-	<p>Once a relationship (connection) has been created between elements, some useful information can be revealed when the mouse cursor hovers over the connection to reveal a tooltip. The tooltip displays the relationship's name, its type, and some text that describes the nature of the relationship between the source and target elements.</p>
-
-	<img src="../Images/connection_tooltip.png" alt="Connection Tooltip"/>
-	<p class="caption">A tooltip shows useful information when hovering over a connection</p>
+	<p>您可以通过单击图形上的文本区域直接编辑元素的名称。双击该图会打开<a href="properties_window.html">属性窗口</a>，您可以在其中编辑所选元素的属性。</p>
 	
 	<br/>
-
-	<h2>Adding Circular Relationships (Connections)</h2>
-	<p>You may add a circular relationship (connection) if you wish. This is a relationship whose target and source element is the same. You can create a connection from an element to itself by selecting the required relationship from the Palette, clicking once on the element and then clicking again on the element:</p>
-
-	<img src="../Images/circular_connection.png" alt="Circular connection"/>
-	<p class="caption">A circular relationship</p>
-
+	
+	<h2>编辑视图元素的属性</h2>
+	
+	<p>可以在<a href="properties_window.html">属性窗口</a>中编辑视图中选定元素的属性。要打开属性窗口，请双击图形或选择图形并从工具栏或主菜单打开窗口。视图中的每个元素都有不同的属性，可以在属性窗口中设置或查看。有关详细信息，请参阅<a href="properties_window.html">属性窗口</a>部分。</p>
+	
+	<p>双击视图中的元素打开<a href="properties_note.html">属性窗口</a>，单击已选择元素的文本字段可以直接编辑元素的文本。 </p>
+	
+	<br/>
+	
+	<h2>从调色板向视图添加新关系（连接）</h2>
+	<p>要向视图添加新关系（连接），请在 <a href="view_palette_creation_tools.html">调色板</a> 上选择所需的连接工具，然后从视图上的一个元素拖动到同一视图上的另一个元素。 </p>
+	
+	<p>与从调色板添加元素一样，向视图添加关系也会自动将其添加到模型树的“关系”文件夹中。</p>
+	
+	<p>在视图中添加新连接时，如果源元素和目标元素之间已经存在相同类型的模型关系，则会出现一个对话框，让您可以选择从连接中引用该模型关系，或者创建一个新的连接<i>和</i>模型关系：</p>
+	
+	<img src="../Images/connection_reuse_dialog.png" alt="重用对话框"/>
+	<p class="caption">提供重用模型关系选项的对话框。</p>
+	
+	<br/>
+	
+	<p class="boxout"><strong><img src="../Images/tip.png" class="tipImage"/>关系、规则和条例。</strong><br/>ArchiMate 元素可以连接通过给定的一组关系（连接）到其他元素。有些关系是允许的，有些则不允许。如果关系不允许，则光标将显示为“不允许”符号，即带有对角线的圆圈。如果允许关系，它将显示为“插头”符号。</p>
+	
+	<br/>
+	
+	<h2>连接信息</h2>
+	<p>一旦在元素之间创建了关系（连接），当鼠标光标悬停在连接上以显示工具提示时，可以显示一些有用的信息。工具提示显示关系的名称、类型以及一些描述源元素和目标元素之间关系性质的文本。</p>
+	
+	<img src="../Images/connection_tooltip.png" alt="连接工具提示"/>
+	<p class="caption">当鼠标悬停在连接上时，工具提示会显示有用的信息</p>
+	
+	<br/>
+	
+	<h2>添加自关联关系（连接）</h2>
+	<p>您可以根据需要添加自关联关系（连接）。这是一种目标元素和源元素相同的关系。您可以通过从调色板中选择所需的关系，单击元素然后再次单击元素来创建从元素到自身的连接：</p>
+	
+	<img src="../Images/circular_connection.png" alt="循环连接"/>
+	<p class="caption">循环关系</p>
+	
 	<p>&nbsp;</p>
 	
 </body>

@@ -4,58 +4,59 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Copying, Pasting, Selecting and Deleting Elements</title>
+<title>复制、粘贴、选择和删除元素</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h2>Selecting Elements in a View</h2>
+	<h2>在视图中选择元素</h2>
 
-    <p>Diagram elements and connections may be selected in the view by clicking on them with the selection tool or the marquee tool. For more information about these tools see <a href="view_palette_tools.html">Palette Selection Tools</a>.</p>
+    <p>可以通过使用选择工具或选取框工具在视图中单击图表元素和连接来选择它们。有关这些工具的更多信息，请参阅<a href="view_palette_tools.html">调色板选择工具</a>。</p>
 
-    <h2>Copying and Pasting Elements in a View</h2>
+    <h2>在视图中复制和粘贴元素</h2>
     
-    <p>Diagram elements may be cut, copied and pasted in Views. There are, however, certain constraints on how this works:</p>
+    <p>可以在视图中剪切、复制和粘贴图表元素。但是，它的工作方式存在某些限制：</p>
     
     <ul>
-      <li>If an element is pasted into a View <em>from the same model</em> where the element <em>already exists in that View</em> then a new model element and a new diagram element are created for the View. The new element is a copy of the original. Any connections are also newly created as copies.</li>
-      <li>If an element is pasted in a View <em>from the same model</em> where the element <em>does not already exist </em>then a new diagram element is created for the View and the original model element is referenced. This is equivalent to dragging the element from the Model Tree into the View. Any connections are also referenced.</li>
+      <li>如果将元素粘贴到<em>来自同一模型的视图中</em>，其中元素<em>已存在于该视图中</em>，则创建一个新的模型元素和一个新的图表元素。新元素是原始元素的副本。任何连接也会作为副本新创建。</li>
+      <li>如果将元素粘贴到视图中<em>来自同一模型</em>，其中元素<em>尚不存在</em>则为视图和原始模型创建一个新的图表元素元素被引用。这相当于将元素从模型树拖到视图中。还会引用任何连接。</li>
     </ul>
     
-    <p>If an element is pasted into a View <em>from a different model</em> then a new model element and a new diagram element are created for the View. The new element is a copy of the original. Any connections are also newly created as copies.</p>
+    <p>如果将元素粘贴到视图中<em>来自不同的模型</em>，则会为视图创建一个新的模型元素和一个新的图表元素。新元素是原始元素的副本。任何连接也会作为副本新创建。</p>
     
-    <p>If you choose the "Paste Special" menu option, instead of "Paste" then you can change this behaviour such that references to copied elements are created rather than new elements. You can set the behaviour for this feature in Preferences.</p>
+    <p>如果您选择“选择性粘贴”菜单选项，而不是“粘贴”，那么您可以更改此行为，以便创建对复制元素的引用而不是新元素。您可以在首选项中设置此功能的行为。</p>
     
-    <p class="boxout"><img src="../Images/tip.png" class="tipImage"/>If you copy some diagram elements and then click on the View before pasting, the copied elements will be pasted at the point where you clicked.</p>
-    
-    <br/>
-    
-    <h2>Copy As Image to Clipboard</h2>
-    
-    <p>A View (diagram) can be copied as an image to the system clipboard. This is available from the "Copy As Image To Clipboard" menu command from the main "Edit" menu or by right-clicking on a View and selecting the menu item from the contextual menu. This menu command is only available if a View is open and selected. The shortcut key combination is Ctrl-Shift-C (Command key on Mac). Once the View is copied to the system clipboard it can be pasted into other applications such as word processing and drawing tools.</p>
-
-    <br/>
-
-    <h2>Deleting Elements and Relationships (Connections) in a View</h2>
-    
-    <p>Selected elements and/or connections in a View can be deleted from the View by choosing the "Delete from View" menu item from the main "Edit" menu, from the main toolbar or from the right-click menu. <em>Note - this action deletes those elements from the View not from the model. To delete the element completely you have to delete it in the Model Tree or select "Delete from Model".</em></p>
+    <p class="boxout"><img src="../Images/tip.png" class="tipImage"/>如果你复制一些图表元素，然后在粘贴前点击视图，复制的元素会被粘贴在你点击的地方。</p>
     
     <br/>
+    
+    <h2>作为图像复制到剪贴板</h2>
+    
+    <p>可以将视图（图表）作为图像复制到系统剪贴板。这可以从主“编辑”菜单中的“复制为图像到剪贴板”菜单命令中获得，或者通过右键单击视图并从上下文菜单中选择菜单项来获得。此菜单命令仅在打开并选择视图时可用。快捷键组合是 Ctrl-Shift-C（Mac 上的 Command 键）。将视图复制到系统剪贴板后，即可将其粘贴到其他应用程序中，例如文字处理和绘图工具。</p>
 
-    <h2>Changing an Object's ArchiMate Concept Type in a View</h2>
-    <p>An Element or Relation's ArchiMate concept type can be changed in a View. To change one or more objects' ArchiMate concept type in a View select the required Elements or Relationships and, from the right-click context menu, select the "Set Concept Type" sub-menu and then select the required ArchiMate concept.</p>
-    <p>For more information, see <a href="model_tree_working.html">Changing an Object's ArchiMate Concept Type in the Model Tree</a>.</p>
+    <br/>
 
+    <h2>删除视图中的元素和关系（连接）</h2>
+    
+    <p>通过从主“编辑”菜单、主工具栏或右键单击菜单中选择“从视图中删除”菜单项，可以从视图中删除视图中的选定元素和/或连接。 <em>注意 - 此操作会从视图中删除这些元素，而不是从模型中删除。要完全删除元素，您必须在模型树中将其删除或选择“从模型中删除”。</em></p>
+    
+    <br/>
+	<h2>在视图中更改对象的ArchiMate概念类型</h2>
+
+	<p>可以在视图中更改元素或关系的ArchiMate概念类型。要在视图中更改一个或多个对象的ArchiMate概念类型,请选择所需的元素或关系,然后从右键单击的上下文菜单中,选择“设置概念类型”子菜单,然后选择所需的ArchiMate概念。</p>
+
+	<p>有关更多信息,请参阅<a href="model\_tree\_working.html">在模型树中更改对象的ArchiMate概念类型</a>。</p>
+    
     <br/>    
     
-    <h2>Select in Model Tree</h2>
-    <p>This menu item is available when right-clicking an element or relationship in a View. It will select the corresponding model element in the Model Tree.</p>
+ 	<h2>在模型树中选择</h2>
+    <p>当右键单击视图中的元素或关系时，此菜单项可用。它将在模型树中选择相应的模型元素。</p>
     
     <br/>
     
-    <h2>Delete from Model</h2>
-    <p>This menu item is available when right-clicking an element or relationship in a View. The selected elements and/or relationships are then deleted from the model itself and any Views that reference those elements. This is the equivalent of selecting the elements in the Model Tree and choosing "Delete".</p>
+    <h2>从模型中删除</h2>
+    <p>当右键单击视图中的元素或关系时，此菜单项可用。然后从模型本身和引用这些元素的任何视图中删除选定的元素和/或关系。这相当于选择模型树中的元素并选择“删除”。</p>   
     
     <p>&nbsp;</p>
 

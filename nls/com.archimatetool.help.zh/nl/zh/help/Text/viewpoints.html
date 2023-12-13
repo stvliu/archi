@@ -4,52 +4,52 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Viewpoints</title>
+<title>视点</title>
 <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-    <h1 class="pagebreak">Viewpoints</h1>
+    <h1 class="pagebreak">视点</h1>
     
-    <p>The ArchiMate Specification states that "Viewpoints are a means to focus on particular aspects and layers of the architecture. These aspects and layers are determined by the concerns of a stakeholder with whom communication takes place. What should and should not be visible from a specific viewpoint is therefore entirely dependent on the argumentation with respect to a stakeholder's concerns."</p>
+    <p>ArchiMate 规范指出，“视点是一种关注架构特定方面和层的方法。这些方面和层由与之进行沟通的利益相关者的关注点决定。从特定的角度看应该和不应该看到什么。因此，完全取决于对利益相关者的关注点。”</p>
     
-    <p>In practice, a Viewpoint is a sub-set of elements and relationships aimed at a stakeholder. Archi allows you to specify the following Viewpoints:</p>
+    <p>在实践中，视点是针对利益相关者的元素和关系的子集。 Archi 允许您指定以下视点：</p>
     
     <img src="../Images/viewpoints_menu.png" alt="Viewpoints"/>
-    <p class="caption">Supported Viewpoints</p>
+    <p class="caption">支持的视点</p>
     
-    <p>When creating a new View in Archi, the default Viewpoint is set to "None", meaning that all concepts can be added to the View. Setting a Viewpoint on a View means that a sub-set of elements is available to place on the View. Some other ArchiMate authoring tools require you to specify the Viewpoint in advance when creating the View. Unfortunately, this means that you cannot change your mind should you wish to later change the Viewpoint in the View. Archi, however, implements <strong>Dynamic Viewpoints</strong> so that you can change the Viewpoint at any time and those elements that are not permitted for that Viewpoint are "ghosted" out. Dynamic Viewpoints allow you to change your mind. You don't have to decide up-front what the Viewpoint will be. You can experiment with different Viewpoints for the same View. And if you decide to keep the Viewpoint, you can simply remove any disallowed elements from the View.</p>
+    <p>在 Archi 中创建新视图时，默认视点设置为“无”，这意味着所有概念都可以添加到视图中。在视图上设置视点意味着可以在视图上放置一组元素。 其他一些 ArchiMate 创作工具要求您在创建视图时提前指定视点。 不幸的是，这意味着如果您希望稍后更改视图中的视点，则无法改变主意。 然而，Archi 实现了<strong>动态视点</strong>，因此您可以随时更改视点，并且那些不允许用于该视点的元素被“幻影”掉。动态视点允许您改变主意。您不必预先决定视点将是什么。您可以为同一视图尝试不同的视点。如果您决定保留视点，您可以简单地从视图中删除任何禁用的元素。</p>
     
     <br/>
     
-    <h2>Setting the Viewpoint</h2>
+    <h2>设置视点</h2>
     
-    <p>To set the Viewpoint for a View, open the View in the View editor and select the required Viewpoint from the main "View-&gt;Viewpoint" menu, or by right-clicking on the View's drawing area and selecting it from the context menu. You can also change the Viewpoint from the View's <a href="properties_view.html">Properties</a> window.</p>
+    <p>要设置视图的视点，请在视图编辑器中打开视图并从主“视图->视点”菜单中选择所需的视点，或者右键单击视图的绘图区域并从上下文菜单中选择它。 您还可以从视图的 <a href="properties_view.html">属性</a> 窗口更改视点。</p>
     
-    <p>In the following example we start with a View that has the default "None" Viewpoint:</p>
+    <p>在以下示例中，我们从具有默认“无”视点的视图开始：</p>
     
-    <img src="../Images/viewpoint_none.png" alt="Dynamic Viewpoint"/>
-    <p class="caption">A View with the "None" Viewpoint</p>
+    <img src="../Images/viewpoint_none.png" alt="动态视点"/>
+    <p class="caption">具有“无”视点的视图</p>
     
-    <p>Notice that all elements from all the ArchiMate layers (Business, Application, and Technology) are displayed. Also, the Palette has all elements available.</p>
+    <p>请注意，来自所有 ArchiMate 层（业务、应用和技术）的所有元素都会显示出来。 此外，调色板具有所有可用元素。</p>
     
-    <p>If we now change the Viewpoint to "Infrastructure" then any elements that do not belong in this Viewpoint are "ghosted" out in the View. Notice, also, that only the elements permitted for the current Viewpoint are available in the Palette, whilst the others are not available:</p>
+    <p>如果我们现在将视点更改为“技术”，那么任何不属于该视点的元素都会在视图中“幻影”出来。另请注意，只有当前视点允许的元素在调色板中可用，而其他元素不可用：</p>
     
-    <img src="../Images/viewpoint_changed.png" alt="Dynamic Viewpoint 2"/>
-    <p class="caption">The same View with the "Technology Usage" Viewpoint</p>
+    <img src="../Images/viewpoint_changed.png" alt="动态视点 2"/>
+    <p class="caption">与“技术使用”视点相同的视图</p>
     
-    <p>If we look at the elements in the Model Tree we can see that non-permitted elements for the Viewpoint are also greyed out:</p>
+    <p>如果我们查看模型树中的元素，我们可以看到视点的非允许元素也显示为灰色：</p>
     
     <img src="../Images/viewpoint_tree.png"/>
-    <p class="caption">Elements not permitted for the Viewpoint are greyed out</p>
+    <p class="caption">不允许用于视点的元素显示为灰色</p>
     
-    <p>If we choose to, we can drag and drop any element from the Model Tree to the View but the resulting element in the View will be greyed out. This means that we can work with the Viewpoint any way we want to but we are reminded at all times of what should and shouldn't be added to the Viewpoint.</p>
+    <p>如果我们选择这样做，我们可以将任何元素从模型树拖放到视图中，但视图中的结果元素将显示为灰色。这意味着我们可以以任何我们想要的方式使用视点，但我们始终会被提醒应该和不应该将什么添加到视点。</p>
     
-    <p>If you are unsure of the constraints for a Viewpoint select it then open the <a href="hints.html">Hints Window</a>. A full explanation is available for the Viewpoint:</p>
+    <p>如果您不确定视点的约束条件，请选择它，然后打开 <a href="hints.html">提示窗口</a>。 视点有完整的解释：</p>
     
     <img src="../Images/viewpoint_hint.png"/>
-    <p class="caption">A Hint for a Viewpoint</p>
+    <p class="caption">视点提示</p>
     
     <p>&nbsp;</p>
 
