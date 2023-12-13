@@ -2,7 +2,7 @@
 <viewpoints version="3.0">
 
     <viewpoint id="organization">
-        <name xml:lang="en">Organization</name>
+        <name xml:lang="zh">组织</name>
 
         <concept>BusinessActor</concept>
         <concept>BusinessCollaboration</concept>
@@ -12,7 +12,7 @@
     </viewpoint>
 
     <viewpoint id="business_process_cooperation">
-        <name xml:lang="en">Business Process Cooperation</name>
+        <name xml:lang="zh">业务流程协作</name>
 
         <concept>$ApplicationElements$</concept>
         <concept>BusinessActor</concept>
@@ -30,7 +30,7 @@
     </viewpoint>
 
     <viewpoint id="product">
-        <name xml:lang="en">Product</name>
+        <name xml:lang="zh">产品</name>
 
         <concept>$ApplicationElements$</concept>
         <concept>Artifact</concept>
@@ -52,14 +52,14 @@
     </viewpoint>
 
     <viewpoint id="application_cooperation">
-        <name xml:lang="en">Application Cooperation</name>
+        <name xml:lang="zh">应用协作</name>
         
         <concept>$ApplicationElements$</concept>
         <concept>Location</concept>
     </viewpoint>
 
     <viewpoint id="application_structure">
-        <name xml:lang="en">Application Structure</name>
+        <name xml:lang="zh">应用结构</name>
 
         <concept>ApplicationComponent</concept>
         <concept>ApplicationCollaboration</concept>
@@ -68,7 +68,7 @@
     </viewpoint>
 
     <viewpoint id="application_usage">
-        <name xml:lang="en">Application Usage</name>
+        <name xml:lang="zh">应用使用</name>
 
         <concept>$ApplicationElements$</concept>
         <concept>BusinessActor</concept>
@@ -82,7 +82,7 @@
     </viewpoint>
 
     <viewpoint id="implementation_deployment">
-        <name xml:lang="en">Implementation and Deployment</name>
+        <name xml:lang="zh">实施和部署</name>
 
         <concept>$ApplicationElements$</concept>
         <concept>Artifact</concept>
@@ -96,14 +96,14 @@
     </viewpoint>
 
     <viewpoint id="technology">
-        <name xml:lang="en">Technology</name>
+        <name xml:lang="zh">技术</name>
         
         <concept>$TechnologyElements$</concept>
         <concept>Location</concept>
     </viewpoint>
 
     <viewpoint id="technology_usage">
-        <name xml:lang="en">Technology Usage</name>
+        <name xml:lang="zh">技术使用</name>
 
         <concept>ApplicationComponent</concept>
         <concept>ApplicationCollaboration</concept>
@@ -115,7 +115,7 @@
     </viewpoint>
 
     <viewpoint id="information_structure">
-        <name xml:lang="en">Information Structure</name>
+        <name xml:lang="zh">信息结构</name>
 
         <concept>Artifact</concept>
         <concept>BusinessObject</concept>
@@ -125,7 +125,7 @@
     </viewpoint>
 
     <viewpoint id="service_realization">
-        <name xml:lang="en">Service Realization</name>
+        <name xml:lang="zh">服务实现</name>
 
         <concept>$ApplicationElements$</concept>
         <concept>BusinessActor</concept>
@@ -142,7 +142,7 @@
     </viewpoint>
 
     <viewpoint id="physical">
-        <name xml:lang="en">Physical</name>
+        <name xml:lang="zh">物理</name>
         
         <concept>$PhysicalElements$</concept>
         <concept>CommunicationNetwork</concept>
@@ -153,7 +153,7 @@
     </viewpoint>
 
     <viewpoint id="stakeholder">
-        <name xml:lang="en">Stakeholder</name>
+        <name xml:lang="zh">利益相关者</name>
         
         <concept>Assessment</concept>
         <concept>Driver</concept>
@@ -163,7 +163,7 @@
     </viewpoint>
 
     <viewpoint id="goal_realization">
-        <name xml:lang="en">Goal Realization</name>
+        <name xml:lang="zh">目标实现</name>
         
         <concept>Constraint</concept>
         <concept>Goal</concept>
@@ -173,7 +173,7 @@
     </viewpoint>
 
     <viewpoint id="requirements_realization">
-        <name xml:lang="en">Requirements Realization</name>
+        <name xml:lang="zh">需求实现</name>
         
         <concept>Constraint</concept>
         <concept>Goal</concept>
@@ -191,20 +191,20 @@
     </viewpoint>
 
     <viewpoint id="motivation">
-        <name xml:lang="en">Motivation</name>
+        <name xml:lang="zh">动机</name>
         
         <concept>$MotivationElements$</concept>
     </viewpoint>
 
     <viewpoint id="strategy">
-        <name xml:lang="en">Strategy</name>
+        <name xml:lang="zh">战略</name>
         
         <concept>$StrategyElements$</concept>
         <concept>Outcome</concept>
     </viewpoint>
 
     <viewpoint id="capability">
-        <name xml:lang="en">Capability Map</name>
+        <name xml:lang="zh">能力</name>
         
         <concept>Capability</concept>
         <concept>Outcome</concept>
@@ -212,7 +212,7 @@
     </viewpoint>
 
     <viewpoint id="value_stream">
-        <name xml:lang="en">Value Stream</name>
+        <name xml:lang="zh">价值流</name>
         
         <concept>Capability</concept>
         <concept>Outcome</concept>
@@ -221,7 +221,7 @@
     </viewpoint>
 
     <viewpoint id="outcome_realization">
-        <name xml:lang="en">Outcome Realization</name>
+        <name xml:lang="zh">成果实现</name>
         
         <concept>Capability</concept>
         <concept>Meaning</concept>
@@ -237,7 +237,7 @@
     </viewpoint>
 
     <viewpoint id="resource">
-        <name xml:lang="en">Resource Map</name>
+        <name xml:lang="zh">资源</name>
         
         <concept>Capability</concept>
         <concept>Resource</concept>
@@ -245,7 +245,7 @@
     </viewpoint>
 
     <viewpoint id="project">
-        <name xml:lang="en">Project</name>
+        <name xml:lang="zh">项目</name>
         
         <concept>BusinessActor</concept>
         <concept>BusinessRole</concept>
@@ -257,14 +257,14 @@
     </viewpoint>
 
     <viewpoint id="migration">
-        <name xml:lang="en">Migration</name>
+        <name xml:lang="zh">迁移</name>
         
         <concept>Gap</concept>
         <concept>Plateau</concept>
     </viewpoint>
 
     <viewpoint id="implementation_migration">
-        <name xml:lang="en">Implementation and Migration</name>
+        <name xml:lang="zh">实施和迁移</name>
         
         <concept>$BusinessElements$</concept>
         <concept>$ApplicationElements$</concept>
@@ -277,7 +277,7 @@
     </viewpoint>
 
     <viewpoint id="layered">
-        <name xml:lang="en">Layered</name>
+        <name xml:lang="zh">分层</name>
         <!-- No concepts means that all concepts are allowed -->
     </viewpoint>
 
