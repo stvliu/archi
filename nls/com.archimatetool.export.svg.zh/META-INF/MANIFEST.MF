@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Simplified Chinese Language Pack
 Bundle-SymbolicName: com.archimatetool.export.svg.zh
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Bundle-Vendor: Steven Liu
 Fragment-Host: com.archimatetool.export.svg
 Bundle-ClassPath: com.archimatetool.export.svg.zh.jar
