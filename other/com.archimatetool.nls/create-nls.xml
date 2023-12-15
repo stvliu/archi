@@ -134,6 +134,11 @@
         <antcall target="create_archi_project">
             <param name="prj.src" value="org.opengroup.archimate.xmlexchange.commandline" />
         </antcall>
+    	
+        <!-- org.eclipse.gef -->
+        <antcall target="create_archi_project">
+            <param name="prj.src" value="org.eclipse.gef" />
+        </antcall>
 
     </target>
 
