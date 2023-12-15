@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simplified Chinese Language Pack
+Bundle-SymbolicName: org.eclipse.gef.zh
+Bundle-Version: 5.2.0.qualifier
+Bundle-Vendor: Steven Liu
+Fragment-Host: org.eclipse.gef
+Bundle-ClassPath: org.eclipse.gef.zh.jar
+Automatic-Module-Name: org.eclipse.gef.zh
