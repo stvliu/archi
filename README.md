@@ -1,6 +1,7 @@
 
 
 # 汉化Archi - ArchiMate Modelling Editor
+二进制安装包：https://articles.zsxq.com/id_3si9q1nqkw5f.html
 
 Archi® is a free, open source, cross-platform tool and editor to create ArchiMate models.
 
