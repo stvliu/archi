@@ -1,6 +1,6 @@
 
 
-# Archi - ArchiMate Modelling Editor
+# 汉化Archi - ArchiMate Modelling Editor
 
 Archi® is a free, open source, cross-platform tool and editor to create ArchiMate models.
 
